@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Your Sidebar Name"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
+  bio              : test the bio
   email            : hanchao@udel.edu
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
