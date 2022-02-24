@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Chao Han / under construction"
+title                    : "Chao Han"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
