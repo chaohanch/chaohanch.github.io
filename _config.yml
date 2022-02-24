@@ -81,9 +81,11 @@ analytics:
 # Site Author
 author:
   name             : "Chao Han"
-  avatar           : "profile.png"
-  bio              : "test the bio"
+  avatar           : "ChaoHanprofile.png"
+  bio              : "PhD candidate in Linguistics, University of Delaware"
+  location         : "Newark, DE"
   email            : "hanchao@udel.edu"
+  googlescholar    : "https://scholar.google.com/citations?authuser=1&user=xx1E3x0AAAAJ"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -92,7 +94,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "chaohanch"
   google_plus      :
   keybase          :
   instagram        :
