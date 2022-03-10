@@ -20,7 +20,7 @@ main:
 #     url: /year-archive/
     
   - title: "CV"
-    url: https://chaohanch.github.io/files/CV_ChaoHan_20220206.pdf
+    url: "https://chaohanch.github.io/files/CV_ChaoHan_20220206.pdf"
     
 #   - title: "Guide"
 #     url: /markdown/
