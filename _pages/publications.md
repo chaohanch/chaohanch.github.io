@@ -20,9 +20,11 @@ Journal Publications
 
 - Shinohara, Y., **Han, C.**, & Hestvik, A. (2022). Discriminability and prototypicality of non-native vowels. _Studies in Second Language Acquisition_, 44(5), 1260–1278. https://doi.org/10.1017/S0272263121000978
 
-- Rhodes, R., Avcu, E., **Han, C.**, & Hestvik, A. (2022) Auditory predictions are phonological when phonetic information is variable. *Language, Cognition and Neuroscience*, 1--16. https://doi.org/10.1080/23273798.2022.2043395
+- Rhodes, R., Avcu, E., **Han, C.**, & Hestvik, A. (2022). Auditory predictions are phonological when phonetic information is variable. _Language, Cognition and Neuroscience_, 37(9), 1099–1114. https://doi.org/10.1080/23273798.2022.2043395
 
-- Rhodes, R., **Han, C.**, Hestvik, A. (2019) Phonological memory traces do not contain phonetic information. *Attention, Perception, & Psychophysics, 81*(4), pp. 897--911. https://doi.org/10.3758/s13414-019-01728-1
+- Rhodes, R., **Han, C.**, & Hestvik, A. (2019). Phonological memory traces do not contain phonetic information. _Attention, Perception, & Psychophysics_, 81(4), 897–911. https://doi.org/10.3758/s13414-019-01728-1
+
+
 
 - **Han, C.**, Vogel, I., Yuan, Y., Athanasopoulou, A. (2019) Perceptual confusion of Mandarin tone 3 and tone 4. *University of Pennsylvania Working Papers in Linguistics*, 26(1), 12.
 
