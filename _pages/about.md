@@ -8,8 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I am a postdoc in psycholinguistics and speech perception at the University of Toronto Scarborough. I work with Dr. Philip Monahan in the Computation and Psycholinguistics Laboratory (CAP lab).
+Hi, I am a postdoctoral researcher in cognitive neuroscience and speech perception at the University of Toronto Scarborough, working with [Dr. Philip Monahan](https://phijomo.github.io/) in the [Computation and Psycholinguistics Laboratory (CAP Lab)](https://www.utsc.utoronto.ca/labs/caplab/).
 
-My research focuses on understand how we perceive and process speech sounds, how the brain extracts abstract categories from varying acoustic cues, and how the categories are represented, in both typical and clinical populations. To answer those questions, I use both behavioral and EEG techniques. My current project asks whether and how a phoneme representation encodes acoustic details, using the auditory oddball paradigm.
-
-My research aims to understand how the brain encodes and represents speech sounds through behavioral and EEG experiments.
+My research focuses on how the brain processes and represents speech sounds, using behavioral and EEG experiments, I study the encoding of speech sounds in typical and clinical populations, exploring questions like how phonological representations retain acoustic details and how factors such as typicality and perceptual context influence memory encoding.
