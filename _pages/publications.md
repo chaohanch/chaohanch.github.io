@@ -7,9 +7,9 @@ author_profile: true
 
 Working Papers
 
-- **Han, C.**, Hestvik, A., Idsardi, B. (in revision). No exclusive access to phonemes with the varying-standards MMN paradigm.
+- No exclusive access to phonemes with the varying-standards MMN paradigm. ((in revision) 
 
-- Dong, Z., **Han, C.**, & Li, S. (in review). Feedback Explicitness, Working Memory, and Explicit Knowledge in Classroom-Based Second Language Mandarin Tone Learning.
+- Feedback Explicitness, Working Memory, and Explicit Knowledge in Classroom-Based Second Language Mandarin Tone Learning. (in review) 
 
 
 Journal Publications
