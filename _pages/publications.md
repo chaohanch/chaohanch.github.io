@@ -14,7 +14,7 @@ Working Papers
 
 Journal Publications
 
-- Dong, Z. R., **Han, C.**, Hestvik, A., & Hermon, G. L2 processing of filled gaps. Linguistic Approaches to Bilingualism. https://doi.org/10.1075/lab.20058.don
+- Dong, Z. R., **Han, C.**, Hestvik, A., & Hermon, G. L2 processing of filled gaps. _Linguistic Approaches to Bilingualism._ https://doi.org/10.1075/lab.20058.don
 
 - Shinohara, Y., **Han, C.**, & Hestvik, A. (2023). English Vowel Discrimination and Perceptual Assimilation by Japanese Listeners. Language and Speech, 1–16. https://doi.org/10.1177/00238309231209311
 
