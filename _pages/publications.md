@@ -35,11 +35,9 @@ Hestvik, A., Morlet, T., Nagao, K., & **Han, C.** (2023) Auditory processing dis
 
 **Han, C.**, Vogel, I., Yuan, Y., Athanasopoulou, A. (2020) Perceptual confusion of Mandarin tone 3 and tone 4. _University of Pennsylvania Working Papers in Linguistics, 26_(1), 12, 97-103.
 
-Rhodes, R., **Han, C.**, Hestvik, A. Ad hoc phonetic categorization and prediction. In S. Calhoun, P. Escudero, M. Tabain, & P. Warren (Eds.), *Proceedings of the 19th International Congress of Phonetic Sciences, Melbourne, Australia 2019* (pp. 1223-1227).
+Rhodes, R., **Han, C.**, Hestvik, A. (2019) Ad hoc phonetic categorization and prediction. In S. Calhoun, P. Escudero, M. Tabain, & P. Warren (Eds.), _Proceedings of the 19th International Congress of Phonetic Sciences, Melbourne, Australia_ (pp. 1223-1227).
 
-
-
-Vogel, I., Athanasopoulou, A., **Han, C.**, Yue, Y. How perceptible is the difference between tone 3 and tone 4 in Mandarin Chinese? In S. Calhoun, P. Escudero, M. Tabain, & P. Warren (Eds.), *Proceedings of the 19th International Congress of Phonetic Sciences, Melbourne, Australia 2019* (pp. 2027-2031).
+Vogel, I., Athanasopoulou, A., **Han, C.**, Yue, Y. (2019) How perceptible is the difference between tone 3 and tone 4 in Mandarin Chinese? In S. Calhoun, P. Escudero, M. Tabain, & P. Warren (Eds.),_Proceedings of the 19th International Congress of Phonetic Sciences, Melbourne, Australia_ (pp. 2027-2031).
 
  |
 |
