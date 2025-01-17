@@ -14,7 +14,9 @@ Working Papers
 
 Journal Publications
 
-- Dong, Z. R., **Han, C.**, Hestvik, A., & Hermon, G. L2 processing of filled gaps. _Linguistic Approaches to Bilingualism._ https://doi.org/10.1075/lab.20058.don
+- Shinohara, Y., **Han, C.**, & Hestvik, A. (2023). English Vowel Discrimination and Perceptual Assimilation by Japanese Listeners. _Language and Speech_, 67(4), 945–960. https://doi.org/10.1177/00238309231209311
+
+- Dong, Z. R., **Han, C.**, Hestvik, A., & Hermon, G. (2023). L2 processing of filled gaps: Non-native brain activity not modulated by proficiency and working memory. _Linguistic Approaches to Bilingualism_, 13(6), 767–800. https://doi.org/10.1075/lab.20058.don
 
 - Shinohara, Y., **Han, C.**, & Hestvik, A. (2023). English Vowel Discrimination and Perceptual Assimilation by Japanese Listeners. Language and Speech, 1–16. https://doi.org/10.1177/00238309231209311
 
