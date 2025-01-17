@@ -2,7 +2,7 @@
 title: "Publications"
 permalink: /publications/
 author_profile: true
-type scale: type-size-2
+type scale: type-size-6
 ---
 
 Working Papers
