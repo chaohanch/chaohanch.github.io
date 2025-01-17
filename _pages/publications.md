@@ -5,33 +5,37 @@ author_profile: true
 # type scale: type-size-6
 ---
 
-Working Papers
+<h2 id="active">
+Working Paper
+</h2>
 
-- No exclusive access to phonemes with the varying-standards MMN paradigm. (in revision) 
+No exclusive access to phonemes with the varying-standards MMN paradigm. (in revision) 
 
-- Feedback Explicitness, Working Memory, and Explicit Knowledge in Classroom-Based Second Language Mandarin Tone Learning. (in review) 
+Feedback Explicitness, Working Memory, and Explicit Knowledge in Classroom-Based Second Language Mandarin Tone Learning. (in review) 
 
-
+<h2 id="active">
 Journal Articles
+</h2>
 
-- Shinohara, Y., **Han, C.**, & Hestvik, A. (2023). English Vowel Discrimination and Perceptual Assimilation by Japanese Listeners. _Language and Speech, 67_(4), 945–960. https://doi.org/10.1177/00238309231209311
+Shinohara, Y., **Han, C.**, & Hestvik, A. (2023). English Vowel Discrimination and Perceptual Assimilation by Japanese Listeners. _Language and Speech, 67_(4), 945–960. https://doi.org/10.1177/00238309231209311
 
-- Dong, Z. R., **Han, C.**, Hestvik, A., & Hermon, G. (2023). L2 processing of filled gaps: Non-native brain activity not modulated by proficiency and working memory. _Linguistic Approaches to Bilingualism, 13_(6), 767–800. https://doi.org/10.1075/lab.20058.don
+Dong, Z. R., **Han, C.**, Hestvik, A., & Hermon, G. (2023). L2 processing of filled gaps: Non-native brain activity not modulated by proficiency and working memory. _Linguistic Approaches to Bilingualism, 13_(6), 767–800. https://doi.org/10.1075/lab.20058.don
 
-- Shinohara, Y., **Han, C.**, & Hestvik, A. (2022). Discriminability and prototypicality of non-native vowels. _Studies in Second Language Acquisition, 44_(5), 1260–1278. https://doi.org/10.1017/S0272263121000978
+Shinohara, Y., **Han, C.**, & Hestvik, A. (2022). Discriminability and prototypicality of non-native vowels. _Studies in Second Language Acquisition, 44_(5), 1260–1278. https://doi.org/10.1017/S0272263121000978
 
-- Rhodes, R., Avcu, E., **Han, C.**, & Hestvik, A. (2022). Auditory predictions are phonological when phonetic information is variable. _Language, Cognition and Neuroscience, 37_(9), 1099–1114. https://doi.org/10.1080/23273798.2022.2043395
+Rhodes, R., Avcu, E., **Han, C.**, & Hestvik, A. (2022). Auditory predictions are phonological when phonetic information is variable. _Language, Cognition and Neuroscience, 37_(9), 1099–1114. https://doi.org/10.1080/23273798.2022.2043395
 
-- Rhodes, R., **Han, C.**, & Hestvik, A. (2019). Phonological memory traces do not contain phonetic information. _Attention, Perception, & Psychophysics, 81_(4), 897–911. https://doi.org/10.3758/s13414-019-01728-1
+Rhodes, R., **Han, C.**, & Hestvik, A. (2019). Phonological memory traces do not contain phonetic information. _Attention, Perception, & Psychophysics, 81_(4), 897–911. https://doi.org/10.3758/s13414-019-01728-1
 
-
+<h2 id="active">
 Conference Proceedings
+</h2>
 
-- Hestvik, A., Morlet, T., Nagao, K., & **Han, C.** (2023) Auditory processing disorder targets phonetics, not phonology. In P. Gappmayr & J. Kellogg (Eds.), _Proceedings of the 47th Annual Boston University Conference on Language Development, Somerville, MA: Cascadilla Press_ (pp. 356-365).
+Hestvik, A., Morlet, T., Nagao, K., & **Han, C.** (2023) Auditory processing disorder targets phonetics, not phonology. In P. Gappmayr & J. Kellogg (Eds.), _Proceedings of the 47th Annual Boston University Conference on Language Development, Somerville, MA: Cascadilla Press_ (pp. 356-365).
 
-- **Han, C.**, Vogel, I., Yuan, Y., Athanasopoulou, A. (2020) Perceptual confusion of Mandarin tone 3 and tone 4. _University of Pennsylvania Working Papers in Linguistics, 26_(1), 12, 97-103.
+**Han, C.**, Vogel, I., Yuan, Y., Athanasopoulou, A. (2020) Perceptual confusion of Mandarin tone 3 and tone 4. _University of Pennsylvania Working Papers in Linguistics, 26_(1), 12, 97-103.
 
-- Rhodes, R., **Han, C.**, Hestvik, A. Ad hoc phonetic categorization and prediction. In S. Calhoun, P. Escudero, M. Tabain, & P. Warren (Eds.), *Proceedings of the 19th International Congress of Phonetic Sciences, Melbourne, Australia 2019* (pp. 1223-1227).
+Rhodes, R., **Han, C.**, Hestvik, A. Ad hoc phonetic categorization and prediction. In S. Calhoun, P. Escudero, M. Tabain, & P. Warren (Eds.), *Proceedings of the 19th International Congress of Phonetic Sciences, Melbourne, Australia 2019* (pp. 1223-1227).
 
 
 
