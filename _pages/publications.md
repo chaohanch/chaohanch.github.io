@@ -11,7 +11,7 @@ Working Papers
 
 No exclusive access to phonemes with the varying-standards MMN paradigm. (in revision) 
 
-Feedback explicitness, working memory, and explicit Knowledge in classroom-based second language Mandarin tone learning. (in review) 
+Feedback explicitness, working memory, and explicit knowledge in classroom-based second language Mandarin tone learning. (in review) 
 
 
 <h2 id="active">
@@ -33,12 +33,14 @@ Rhodes, R., **Han, C.**, & Hestvik, A. (2019). Phonological memory traces do not
 Conference Proceedings
 </h2>
 
-Hestvik, A., Morlet, T., Nagao, K., & **Han, C.** (2023) Auditory processing disorder targets phonetics, not phonology. In P. Gappmayr & J. Kellogg (Eds.), _Proceedings of the 47th Annual Boston University Conference on Language Development, Somerville, MA: Cascadilla Press_ (pp. 356-365).
+Hestvik, A., Morlet, T., Nagao, K., & **Han, C.** (2023) Auditory processing disorder targets phonetics, not phonology. In P. Gappmayr & J. Kellogg (Eds.), _Proceedings of the 47th Annual Boston University Conference on Language Development, Somerville, MA: Cascadilla Press_ (pp. 356-365). [PDF](https://pmc.ncbi.nlm.nih.gov/articles/PMC10410628/pdf/nihms-1922393.pdf)
 
-**Han, C.**, Vogel, I., Yuan, Y., Athanasopoulou, A. (2020) Perceptual confusion of Mandarin tone 3 and tone 4. _University of Pennsylvania Working Papers in Linguistics, 26_(1), 12, 97-103.
+**Han, C.**, Vogel, I., Yuan, Y., Athanasopoulou, A. (2020) Perceptual confusion of Mandarin tone 3 and tone 4. _University of Pennsylvania Working Papers in Linguistics, 26_(1), 12, 97-103. [PDF](https://repository.upenn.edu/cgi/viewcontent.cgi?article=2088&context=pwpl)
 
-Rhodes, R., **Han, C.**, Hestvik, A. (2019) Ad hoc phonetic categorization and prediction. In S. Calhoun, P. Escudero, M. Tabain, & P. Warren (Eds.), _Proceedings of the 19th International Congress of Phonetic Sciences, Melbourne, Australia_ (pp. 1223-1227).
+Rhodes, R., **Han, C.**, Hestvik, A. (2019) Ad hoc phonetic categorization and prediction. In S. Calhoun, P. Escudero, M. Tabain, & P. Warren (Eds.), _Proceedings of the 19th International Congress of Phonetic Sciences, Melbourne, Australia_ (pp. 1223-1227). [PDF](https://www.internationalphoneticassociation.org/icphs-proceedings/ICPhS2019/papers/ICPhS_1272.pdf)
 
-Vogel, I., Athanasopoulou, A., **Han, C.**, Yue, Y. (2019) How perceptible is the difference between tone 3 and tone 4 in Mandarin Chinese? In S. Calhoun, P. Escudero, M. Tabain, & P. Warren (Eds.),_Proceedings of the 19th International Congress of Phonetic Sciences, Melbourne, Australia_ (pp. 2027-2031).
+Shinohara, Y., **Han, C.**, Hestvik, A. Effects of perceptual assimilation: The perception of English /æ/, /ʌ/, and /ɑ/ by Japanese speakers. (2019). In S. Calhoun, P. Escudero, M. Tabain, & P. Warren (Eds.), _Proceedings of the 19th International Congress of Phonetic Sciences, Melbourne, Australia_ (pp. 2344-2348). [PDF](https://www.internationalphoneticassociation.org/icphs-proceedings/ICPhS2019/papers/ICPhS_2393.pdf)
 
-Athanasopoulou, A., Vogel, I., **Han, C.**, Yue, Y. (2019) Confusability of Mandarin tone 3 and tone 4: effects of focus and syllable position. In S. Calhoun, P. Escudero, M. Tabain, & P. Warren (Eds.), _Proceedings of the 19th International Congress of Phonetic Sciences, Melbourne, Australia_ (pp. 442-446).
+Vogel, I., Athanasopoulou, A., **Han, C.**, Yue, Y. (2019) How perceptible is the difference between tone 3 and tone 4 in Mandarin Chinese? In S. Calhoun, P. Escudero, M. Tabain, & P. Warren (Eds.),_Proceedings of the 19th International Congress of Phonetic Sciences, Melbourne, Australia_ (pp. 2027-2031). [PDF](https://www.internationalphoneticassociation.org/icphs-proceedings/ICPhS2019/papers/ICPhS_2076.pdf)
+
+Athanasopoulou, A., Vogel, I., **Han, C.**, Yue, Y. (2019) Confusability of Mandarin tone 3 and tone 4: effects of focus and syllable position. In S. Calhoun, P. Escudero, M. Tabain, & P. Warren (Eds.), _Proceedings of the 19th International Congress of Phonetic Sciences, Melbourne, Australia_ (pp. 442-446). [PDF](https://assta.org/proceedings/ICPhS2019/papers/ICPhS_491.pdf)
