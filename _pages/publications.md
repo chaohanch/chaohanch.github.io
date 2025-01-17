@@ -11,22 +11,22 @@ Working Paper
 
 No exclusive access to phonemes with the varying-standards MMN paradigm. (in revision) 
 
-Feedback explicitness, working Memory, and explicit Knowledge in classroom-based second language Mandarin tone learning. (in review) 
+Feedback explicitness, working memory, and explicit Knowledge in classroom-based second language Mandarin tone learning. (in review) 
 
 
 <h2 id="active">
 Journal Articles
 </h2>
 
-Shinohara, Y., **Han, C.**, & Hestvik, A. (2023). English Vowel Discrimination and Perceptual Assimilation by Japanese Listeners. _Language and Speech, 67_(4), 945–960. https://doi.org/10.1177/00238309231209311
+Shinohara, Y., **Han, C.**, & Hestvik, A. (2023). English Vowel Discrimination and Perceptual Assimilation by Japanese Listeners. _Language and Speech, 67_(4), 945–960. [https://doi.org/10.1177/00238309231209311](https://doi.org/10.1177/00238309231209311)
 
-Dong, Z. R., **Han, C.**, Hestvik, A., & Hermon, G. (2023). L2 processing of filled gaps: Non-native brain activity not modulated by proficiency and working memory. _Linguistic Approaches to Bilingualism, 13_(6), 767–800. https://doi.org/10.1075/lab.20058.don
+Dong, Z. R., **Han, C.**, Hestvik, A., & Hermon, G. (2023). L2 processing of filled gaps: Non-native brain activity not modulated by proficiency and working memory. _Linguistic Approaches to Bilingualism, 13_(6), 767–800. [https://doi.org/10.1075/lab.20058.don](https://doi.org/10.1075/lab.20058.don)
 
-Shinohara, Y., **Han, C.**, & Hestvik, A. (2022). Discriminability and prototypicality of non-native vowels. _Studies in Second Language Acquisition, 44_(5), 1260–1278. https://doi.org/10.1017/S0272263121000978
+Shinohara, Y., **Han, C.**, & Hestvik, A. (2022). Discriminability and prototypicality of non-native vowels. _Studies in Second Language Acquisition, 44_(5), 1260–1278. [https://doi.org/10.1017/S0272263121000978](https://doi.org/10.1017/S0272263121000978)
 
-Rhodes, R., Avcu, E., **Han, C.**, & Hestvik, A. (2022). Auditory predictions are phonological when phonetic information is variable. _Language, Cognition and Neuroscience, 37_(9), 1099–1114. https://doi.org/10.1080/23273798.2022.2043395
+Rhodes, R., Avcu, E., **Han, C.**, & Hestvik, A. (2022). Auditory predictions are phonological when phonetic information is variable. _Language, Cognition and Neuroscience, 37_(9), 1099–1114. [https://doi.org/10.1080/23273798.2022.2043395](https://doi.org/10.1080/23273798.2022.2043395)
 
-Rhodes, R., **Han, C.**, & Hestvik, A. (2019). Phonological memory traces do not contain phonetic information. _Attention, Perception, & Psychophysics, 81_(4), 897–911. https://doi.org/10.3758/s13414-019-01728-1
+Rhodes, R., **Han, C.**, & Hestvik, A. (2019). Phonological memory traces do not contain phonetic information. _Attention, Perception, & Psychophysics, 81_(4), 897–911. [https://doi.org/10.3758/s13414-019-01728-1](https://doi.org/10.3758/s13414-019-01728-1)
 
 
 <h2 id="active">
