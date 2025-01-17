@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 <h2 id="active">
-Working Paper
+Working Papers
 </h2>
 
 No exclusive access to phonemes with the varying-standards MMN paradigm. (in revision) 
