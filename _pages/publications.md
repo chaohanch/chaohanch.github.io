@@ -11,7 +11,8 @@ Working Paper
 
 No exclusive access to phonemes with the varying-standards MMN paradigm. (in revision) 
 
-Feedback Explicitness, Working Memory, and Explicit Knowledge in Classroom-Based Second Language Mandarin Tone Learning. (in review) 
+Feedback explicitness, working Memory, and explicit Knowledge in classroom-based second language Mandarin tone learning. (in review) 
+
 
 <h2 id="active">
 Journal Articles
@@ -27,6 +28,7 @@ Rhodes, R., Avcu, E., **Han, C.**, & Hestvik, A. (2022). Auditory predictions ar
 
 Rhodes, R., **Han, C.**, & Hestvik, A. (2019). Phonological memory traces do not contain phonetic information. _Attention, Perception, & Psychophysics, 81_(4), 897–911. https://doi.org/10.3758/s13414-019-01728-1
 
+
 <h2 id="active">
 Conference Proceedings
 </h2>
@@ -39,13 +41,4 @@ Rhodes, R., **Han, C.**, Hestvik, A. (2019) Ad hoc phonetic categorization and p
 
 Vogel, I., Athanasopoulou, A., **Han, C.**, Yue, Y. (2019) How perceptible is the difference between tone 3 and tone 4 in Mandarin Chinese? In S. Calhoun, P. Escudero, M. Tabain, & P. Warren (Eds.),_Proceedings of the 19th International Congress of Phonetic Sciences, Melbourne, Australia_ (pp. 2027-2031).
 
- |
-|
-
-2019
-
- |
-
-Athanasopoulou, A., Vogel, I., **Han, C.**, Yue, Y. Confusability of Mandarin tone 3 and tone 4: effects of focus and syllable position. In S. Calhoun, P. Escudero, M. Tabain, & P. Warren (Eds.), *Proceedings of the 19th International Congress of Phonetic Sciences, Melbourne, Australia 2019* (pp. 442-446).
-
- |
+Athanasopoulou, A., Vogel, I., **Han, C.**, Yue, Y. (2019) Confusability of Mandarin tone 3 and tone 4: effects of focus and syllable position. In S. Calhoun, P. Escudero, M. Tabain, & P. Warren (Eds.), _Proceedings of the 19th International Congress of Phonetic Sciences, Melbourne, Australia_ (pp. 442-446).
