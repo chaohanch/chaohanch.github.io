@@ -2,6 +2,7 @@
 title: "Publications"
 permalink: /publications/
 author_profile: true
+type scale: type-size-6
 ---
 
 # Submitted
