@@ -5,14 +5,14 @@ author_profile: true
 # type scale: type-size-6
 ---
 
-# Working Papers
+Working Papers
 
 - **Han, C.**, Hestvik, A., Idsardi, B. (in revision). No exclusive access to phonemes with the varying-standards MMN paradigm.
 
 - Dong, Z., **Han, C.**, & Li, S. (in review). Feedback Explicitness, Working Memory, and Explicit Knowledge in Classroom-Based Second Language Mandarin Tone Learning.
 
 
-# Journal Publications
+Journal Publications
 
 - Dong, Z. R., **Han, C.**, Hestvik, A., & Hermon, G. L2 processing of filled gaps. Linguistic Approaches to Bilingualism. https://doi.org/10.1075/lab.20058.don
 
