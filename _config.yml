@@ -13,7 +13,7 @@ name                     : &name "Your Name"
 description              : &description "personal description"
 url                      : "https://chaohanch.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "chaohanch.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -82,9 +82,9 @@ analytics:
 author:
   name             : "Chao Han"
   avatar           : "ChaoHanprofile.png"
-  bio              : "PhD in Linguistics, University of Delaware"
-  location         : "Newark, DE"
-  email            : "hanchao@udel.edu"
+  bio              : "Postdoc at the University of Toronto Scarborough"
+  location         : "Toronto, ON"
+  email            : "chao.han@utoronto.ca"
   googlescholar    : "https://scholar.google.com/citations?authuser=1&user=xx1E3x0AAAAJ"
   researchgate     : "https://www.researchgate.net/profile/Chao-Han-2"
   linkedin         : "chaohanch"
