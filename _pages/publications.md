@@ -18,11 +18,7 @@ Journal Publications
 
 - Dong, Z. R., **Han, C.**, Hestvik, A., & Hermon, G. (2023). L2 processing of filled gaps: Non-native brain activity not modulated by proficiency and working memory. _Linguistic Approaches to Bilingualism_, 13(6), 767–800. https://doi.org/10.1075/lab.20058.don
 
-- Shinohara, Y., **Han, C.**, & Hestvik, A. (2023). English Vowel Discrimination and Perceptual Assimilation by Japanese Listeners. Language and Speech, 1–16. https://doi.org/10.1177/00238309231209311
-
-- Dong, Z. R., **Han, C.**, Hestvik, A., & Hermon, G. (2022) L2 processing of filled gaps: Non-native brain activity not modulated by proficiency and working memory. Linguistic Approaches to Bilingualism. https://doi.org/10.1075/lab.20058.don
-
-- Shinohara, Y., **Han, C.**, Hestvik, A. (2022) Discriminability and prototypicality of non-native vowels. *Studies in Second Language Acquisition, 4*(4), 1--19. https://doi.org/10.1017/S0272263121000978
+- Shinohara, Y., **Han, C.**, & Hestvik, A. (2022). Discriminability and prototypicality of non-native vowels. _Studies in Second Language Acquisition_, 44(5), 1260–1278. https://doi.org/10.1017/S0272263121000978
 
 - Rhodes, R., Avcu, E., **Han, C.**, & Hestvik, A. (2022) Auditory predictions are phonological when phonetic information is variable. *Language, Cognition and Neuroscience*, 1--16. https://doi.org/10.1080/23273798.2022.2043395
 
