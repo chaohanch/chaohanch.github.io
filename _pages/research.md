@@ -4,8 +4,6 @@ permalink: /research/
 author_profile: true
 ---
 
-|
-
 *Current*
 
 <h2 id="active">
