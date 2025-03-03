@@ -9,7 +9,7 @@ author_profile: true
 Working Papers
 </h2>
 
-No exclusive access to phonemes with the varying-standards MMN paradigm. (in revision) 
+No exclusive access to phonemes with the varying-standards MMN paradigm. (in review)
 
 Feedback explicitness, working memory, and explicit knowledge in classroom-based second language Mandarin tone learning. (in review) 
 
