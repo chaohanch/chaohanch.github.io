@@ -36,7 +36,7 @@ author_profile: true
 </style>
 
 <div class="project-box">
-    <img src="images/laryngeal.jpg" alt="Project Image">
+    <img src="https://chaohanch.github.io/images/laryngeal.jpg" alt="Project Image">
     <div class="content">
         <h3>Phonological encoding and phonetic cue weighting</h3>
         <p>How does the brain determine whether a sound is /g/ or /k/? The answer lies in how listeners weight different phonetic cues. For instance, voicing contrasts in English stops are primarily cued by voice onset time (VOT), with fundamental frequency (F0) serving as a secondary cue. In this project, we combines behavioral identification tasks with EEG recordings of mismatch negativity (MMN) to explore two key questions: 1.Can secondary cues like F0 contribute to the brain’s pre-attentive encoding of phonological categories? 2.Do individual differences in MMN responses reflect how listeners differentially weight these cues?</p>
