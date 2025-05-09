@@ -12,6 +12,9 @@ Hi, I am a postdoctoral researcher in cognitive neuroscience and speech percepti
 
 My research focuses on how the brain processes and represents speech sounds, using behavioral and EEG experiments, I study the encoding of speech sounds in typical and clinical populations, exploring questions like how phonological representations retain acoustic details and how factors such as typicality and perceptual context influence memory encoding.
 
+<h2 id="active">
+Research
+</h2>
 
 <style>
 .project-box {
@@ -48,7 +51,7 @@ My research focuses on how the brain processes and represents speech sounds, usi
 <div class="project-box">
     <img src="https://chaohanch.github.io/images/flap_icon.jpg" alt="Project Image">
     <div class="content">
-        <h3>Phonological encoding and phonetic cue weighting</h3>
+        <h3>Universal and language-specific encoding of speech</h3>
         <p>How does the brain encode the same sound differently across languages? This project examines how language-specific phonological patterns shape neural representations of speech. Although the flap [ɾ] occurs in both English and Korean, its phonological status differs: in English, it patterns with [t]; in Korean, with [l]. Using EEG, we probe whether this phonological structuring influences how the brain encodes [ɾ], testing how abstract linguistic categories interact with early neural processing.</p>
     </div>
 </div>
