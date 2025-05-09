@@ -52,7 +52,7 @@ Research
     <img src="https://chaohanch.github.io/images/flap_icon.jpg" alt="Project Image">
     <div class="content">
         <h3>Universal and language-specific encoding of speech</h3>
-        <p>Speech sounds are organized by shared articulatory and acoustic properties, but languages carve up the shared space in different ways. For example, the flap [ɾ] occurs in both English and Korean but patterns with different sounds: with [t] as allophones of /t/ in English, and with [l] as allophones of /ɾ/ in Korean. This project tests whether and how these language-specific phonological patterns leave measurable traces in the neural encoding of language-universal physical properties, a key to linking neurophysiology and linguistic theory.</p>
+        <p>Speech sounds are organized by shared articulatory and acoustic properties, but languages carve up the shared space in different ways. For example, the flap [ɾ] occurs in both English and Korean but patterns with different sounds: with [t] as allophones of /t/ in English, and with [l] as allophones of /ɾ/ in Korean. This project tests whether and how these language-specific phonological patterns leave measurable traces in the neural encoding of language-universal phonetic features, a key toward linking neurophysiology and linguistic theory.</p>
     </div>
 </div>
 
@@ -61,6 +61,6 @@ Research
     <img src="https://chaohanch.github.io/images/laryngeal_icon.jpg" alt="Project Image">
     <div class="content">
         <h3>Phonological encoding and phonetic cue weighting</h3>
-        <p>Not all phonetic cues are created equal—at least not in the brain. Speech contrasts like voicing are signaled by multiple phonetic cues, such as voice onset time (VOT) and fundamental frequency (F0), but listeners weight these cues differently. How is individual cue-weighting reflected in pre-attentive neural encoding? By combining behavioral categorization with EEG, we test whether primary and secondary phonetic cues differentially engage in early neural responses—shedding light on how fine-grained acoustic detail interacts with abstract phonological representation in the brain.</p>
+        <p>Not all phonetic cues are created equal—at least not in the brain. Speech contrasts like voicing are signaled by multiple phonetic cues, such as voice onset time (VOT) and fundamental frequency (F0), but listeners weight these cues differently. How is individual cue-weighting reflected in pre-attentive neural encoding? By combining behavioral categorization with EEG, we test whether primary and secondary phonetic cues differentially engage early neural responses—shedding light on how fine-grained acoustic detail interacts with abstract phonological representations in the brain.</p>
     </div>
 </div>
