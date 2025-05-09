@@ -60,7 +60,7 @@ Research
 <div class="project-box">
     <img src="https://chaohanch.github.io/images/laryngeal_icon.jpg" alt="Project Image">
     <div class="content">
-        <h3>Phonological encoding and phonetic cue weighting</h3>
+        <h3>Categorical encoding and phonetic cue weighting</h3>
         <p>Not all phonetic cues are created equal—at least not in the brain. Speech contrasts like voicing are signaled by multiple phonetic cues, such as voice onset time (VOT) and fundamental frequency (F0), but listeners weight these cues differently. How is individual cue-weighting reflected in pre-attentive neural encoding? By combining behavioral categorization with EEG, we test whether primary and secondary phonetic cues differentially engage early neural responses—shedding light on how fine-grained acoustic detail interacts with abstract phonological representations in the brain.</p>
     </div>
 </div>
