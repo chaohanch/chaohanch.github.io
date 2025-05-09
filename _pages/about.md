@@ -52,7 +52,7 @@ Research
     <img src="https://chaohanch.github.io/images/flap_icon.jpg" alt="Project Image">
     <div class="content">
         <h3>Universal and language-specific encoding of speech</h3>
-        <p>How does the brain encode the same sound differently across languages? This project examines how language-specific phonological patterns shape neural representations of speech. Although the flap [ɾ] occurs in both English and Korean, its phonological status differs: in English, it patterns with [t]; in Korean, with [l]. Using EEG, we probe whether this phonological structuring influences how the brain encodes [ɾ], testing how abstract linguistic categories interact with early neural processing.</p>
+        <p>Speech sounds are organized by shared articulatory and acoustic properties, but languages carve up the shared space in different ways. For example, the flap [ɾ] occurs in both English and Korean but patterns with different sounds: with [t] as allophones of /t/ in English, and with [l] as allophones of /ɾ/ in Korean. We test whether and how these language-specific phonological patterns leave measurable traces in the neural encoding of language-universal physical properties, a key to linking neurophysiology and linguistic theory.</p>
     </div>
 </div>
 
