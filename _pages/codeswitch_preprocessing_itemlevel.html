@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-06-02">
+<meta name="dcterms.date" content="2025-06-03">
 
 <title>Codeswtich preprocessing pipeline</title>
 <style>
@@ -59,7 +59,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </style>
 
 
-<script src="codeswitch_preprocessing_itemlevel_files/libs/clipboard/clipboard.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script><script src="codeswitch_preprocessing_itemlevel_files/libs/clipboard/clipboard.min.js"></script>
 <script src="codeswitch_preprocessing_itemlevel_files/libs/quarto-html/quarto.js" type="module"></script>
 <script src="codeswitch_preprocessing_itemlevel_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="codeswitch_preprocessing_itemlevel_files/libs/quarto-html/popper.min.js"></script>
@@ -87,6 +87,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     document.body.classList.add('hypothesis-enabled');
   });
 </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous"></script>
+
+<script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
+<script src="https://unpkg.com/@jupyter-widgets/html-manager@*/dist/embed-amd.js" crossorigin="anonymous"></script>
 
 
 </head>
@@ -282,6 +286,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <ul class="collapse">
   <li><a href="#parameters-4" id="toc-parameters-4" class="nav-link" data-scroll-target="#parameters-4"><span class="header-section-number">6.1</span> parameters</a></li>
   </ul></li>
+  <li><a href="#visulization" id="toc-visulization" class="nav-link" data-scroll-target="#visulization"><span class="header-section-number">7</span> Visulization</a>
+  <ul class="collapse">
+  <li><a href="#parameters-5" id="toc-parameters-5" class="nav-link" data-scroll-target="#parameters-5"><span class="header-section-number">7.1</span> parameters</a></li>
+  <li><a href="#single-participant-single-condition-butterfly" id="toc-single-participant-single-condition-butterfly" class="nav-link" data-scroll-target="#single-participant-single-condition-butterfly"><span class="header-section-number">7.2</span> single-participant, single-condition butterfly</a></li>
+  <li><a href="#topographical-subplots" id="toc-topographical-subplots" class="nav-link" data-scroll-target="#topographical-subplots"><span class="header-section-number">7.3</span> topographical subplots</a></li>
+  </ul></li>
   </ul>
 </nav>
 </div>
@@ -301,7 +311,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">June 2, 2025</p>
+      <p class="date">June 3, 2025</p>
     </div>
   </div>
   
@@ -315,7 +325,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <section id="libraries" class="level1" data-number="1">
 <h1 data-number="1"><span class="header-section-number">1</span> Libraries</h1>
-<div id="1ea9f59f-a9e8-4c34-ab76-f4956aa64b73" class="cell" data-tags="[]" data-execution_count="19">
+<div id="1ea9f59f-a9e8-4c34-ab76-f4956aa64b73" class="cell" data-tags="[]" data-execution_count="55">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> os</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> mne</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
@@ -336,7 +346,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h1 data-number="2"><span class="header-section-number">2</span> Trigger lag fix</h1>
 <section id="parameters" class="level2" data-number="2.1">
 <h2 data-number="2.1" class="anchored" data-anchor-id="parameters"><span class="header-section-number">2.1</span> parameters</h2>
-<div id="60b06341-8f75-4d1d-9708-39d435067f52" class="cell" data-tags="[]" data-execution_count="4">
+<div id="60b06341-8f75-4d1d-9708-39d435067f52" class="cell" data-tags="[]" data-execution_count="56">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># directory</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>input_dir <span class="op">=</span> os.getcwd() <span class="op">+</span> <span class="st">'/data/'</span></span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>output_dir <span class="op">=</span> os.getcwd() <span class="op">+</span> <span class="st">'/preprocessed/1_trigger_lag_corrected/'</span></span>
@@ -352,11 +362,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>t_right <span class="op">=</span> <span class="fl">0.5</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Here we fix trigger lag fix and recode the event for item-level analysis.</p>
-<div id="4dd6c106-d5c7-4c4f-b03a-ffba70291017" class="cell" data-scrolled="true" data-tags="[]" data-execution_count="5">
+<div id="4dd6c106-d5c7-4c4f-b03a-ffba70291017" class="cell" data-scrolled="true" data-tags="[]" data-execution_count="57">
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co">#### create dictionaries for item-level codes and descriptions ####</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.read_csv(<span class="st">"mapping_file.txt"</span>, delimiter<span class="op">=</span><span class="st">'</span><span class="ch">\t</span><span class="st">'</span>)</span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>mapping_file2code <span class="op">=</span> <span class="bu">dict</span>(<span class="bu">zip</span>(df[<span class="st">'filename'</span>], df[<span class="st">'item_code'</span>]))</span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>mapping_code2file <span class="op">=</span> <span class="bu">dict</span>(<span class="bu">zip</span>(df[<span class="st">'item_code'</span>], df[<span class="st">'filename'</span>]))</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>mapping_code2description <span class="op">=</span> <span class="bu">dict</span>(<span class="bu">zip</span>(df[<span class="st">'item_code'</span>], df[<span class="st">'description'</span>]))</span>
 <span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="co">#############################################################</span></span>
 <span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="co"># get list of file names</span></span>
@@ -547,7 +557,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb3-192"><a href="#cb3-192" aria-hidden="true" tabindex="-1"></a>        <span class="co"># create item-level annotations</span></span>
 <span id="cb3-193"><a href="#cb3-193" aria-hidden="true" tabindex="-1"></a>        annot_from_events <span class="op">=</span> mne.annotations_from_events(</span>
 <span id="cb3-194"><a href="#cb3-194" aria-hidden="true" tabindex="-1"></a>            events <span class="op">=</span> events_from_annot,</span>
-<span id="cb3-195"><a href="#cb3-195" aria-hidden="true" tabindex="-1"></a>            event_desc <span class="op">=</span> mapping_code2file, <span class="co"># item-level mapping</span></span>
+<span id="cb3-195"><a href="#cb3-195" aria-hidden="true" tabindex="-1"></a>            event_desc <span class="op">=</span> mapping_code2description, <span class="co"># item-level mapping</span></span>
 <span id="cb3-196"><a href="#cb3-196" aria-hidden="true" tabindex="-1"></a>            sfreq <span class="op">=</span> eeg_sfreq</span>
 <span id="cb3-197"><a href="#cb3-197" aria-hidden="true" tabindex="-1"></a>        )</span>
 <span id="cb3-198"><a href="#cb3-198" aria-hidden="true" tabindex="-1"></a>        </span>
@@ -576,7 +586,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </ul>
 <section id="parameters-1" class="level2" data-number="3.1">
 <h2 data-number="3.1" class="anchored" data-anchor-id="parameters-1"><span class="header-section-number">3.1</span> parameters</h2>
-<div id="f9c49ac5-a34f-40da-97e9-8180a7366296" class="cell" data-execution_count="11">
+<div id="f9c49ac5-a34f-40da-97e9-8180a7366296" class="cell" data-execution_count="58">
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co">#### parameters ####</span></span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="co"># set directory</span></span>
@@ -608,7 +618,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb4-29"><a href="#cb4-29" aria-hidden="true" tabindex="-1"></a><span class="co"># interpolation method</span></span>
 <span id="cb4-30"><a href="#cb4-30" aria-hidden="true" tabindex="-1"></a><span class="co"># method=dict(eeg="spline")</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div id="d9a72f3e-94df-432c-bd4a-606ee8feafbd" class="cell" data-scrolled="true" data-execution_count="12">
+<div id="d9a72f3e-94df-432c-bd4a-606ee8feafbd" class="cell" data-scrolled="true" data-execution_count="59">
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co">#####################################################</span></span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="co">#### Preprocessing (filtering, resampling, bad channel detection/interpoloation, re-reference) ####</span></span>
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="co">#####################################################</span></span>
@@ -693,7 +703,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h1 data-number="4"><span class="header-section-number">4</span> ICA artifact subtraction</h1>
 <section id="parameters-2" class="level2" data-number="4.1">
 <h2 data-number="4.1" class="anchored" data-anchor-id="parameters-2"><span class="header-section-number">4.1</span> parameters</h2>
-<div id="ea182dbb-dd04-4ffd-ab14-1e5b677dc08b" class="cell" data-execution_count="22">
+<div id="ea182dbb-dd04-4ffd-ab14-1e5b677dc08b" class="cell" data-execution_count="60">
 <div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># directory</span></span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>input_dir <span class="op">=</span> os.getcwd() <span class="op">+</span> <span class="st">'/preprocessed/2_bad_channel_corrected/'</span></span>
 <span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>output_dir <span class="op">=</span> os.getcwd() <span class="op">+</span> <span class="st">'/preprocessed/3_ica/'</span></span>
@@ -704,7 +714,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>ic_upto <span class="op">=</span> <span class="dv">15</span></span>
 <span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a><span class="co"># ic_upto = 99</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div id="7b4025e8-5452-4d24-80d4-32768c1d1b59" class="cell" data-execution_count="23">
+<div id="7b4025e8-5452-4d24-80d4-32768c1d1b59" class="cell" data-scrolled="true" data-execution_count="61">
 <div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># get all file names in the folder</span></span>
 <span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>all_input <span class="op">=</span> os.listdir(input_dir)</span>
 <span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>all_output <span class="op">=</span> os.listdir(output_dir)</span>
@@ -768,7 +778,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>segmenting continuous EEG into epochs - re-reference - segmentation</p>
 <section id="parameters-3" class="level2" data-number="5.1">
 <h2 data-number="5.1" class="anchored" data-anchor-id="parameters-3"><span class="header-section-number">5.1</span> parameters</h2>
-<div id="ecb6de9b-dd9f-4c4b-ae3f-4bdc7b1b0079" class="cell" data-execution_count="40">
+<div id="ecb6de9b-dd9f-4c4b-ae3f-4bdc7b1b0079" class="cell" data-execution_count="62">
 <div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co">#### parameters ####</span></span>
 <span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a><span class="co"># directory</span></span>
@@ -790,7 +800,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb8-19"><a href="#cb8-19" aria-hidden="true" tabindex="-1"></a><span class="co"># reject_criteria = dict(eeg = 150e-6)       # 150 µV</span></span>
 <span id="cb8-20"><a href="#cb8-20" aria-hidden="true" tabindex="-1"></a>reject_criteria <span class="op">=</span> <span class="bu">dict</span>(eeg<span class="op">=</span><span class="fl">200e-6</span>)       <span class="co"># 200 µV</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div id="2f2b89ac-a93a-418b-a33d-1d08a4238d47" class="cell" data-execution_count="41">
+<div id="2f2b89ac-a93a-418b-a33d-1d08a4238d47" class="cell" data-scrolled="true" data-execution_count="64">
 <div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># epochs for ERP</span></span>
 <span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="co"># initialize a list for subjects with too many bad trials</span></span>
 <span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>too_many_bad_trial_subjects <span class="op">=</span> []</span>
@@ -883,14 +893,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h1 data-number="6"><span class="header-section-number">6</span> ERP</h1>
 <section id="parameters-4" class="level2" data-number="6.1">
 <h2 data-number="6.1" class="anchored" data-anchor-id="parameters-4"><span class="header-section-number">6.1</span> parameters</h2>
-<div id="f9c646d5-a058-46e7-861b-da54a9d8b54d" class="cell" data-execution_count="42">
+<div id="f9c646d5-a058-46e7-861b-da54a9d8b54d" class="cell" data-execution_count="65">
 <div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># directory</span></span>
 <span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>input_dir <span class="op">=</span> os.getcwd() <span class="op">+</span> <span class="st">'/preprocessed/4_erp_epochs/'</span></span>
 <span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>output_dir <span class="op">=</span> os.getcwd() <span class="op">+</span> <span class="st">'/preprocessed/5_averaged/'</span></span>
 <span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a><span class="co"># create a folder if the folder doesn't exist</span></span>
 <span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>os.makedirs(output_dir, exist_ok<span class="op">=</span><span class="va">True</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div id="46369568-e185-4ac8-86c1-50df971f7d50" class="cell" data-execution_count="47">
+<div id="46369568-e185-4ac8-86c1-50df971f7d50" class="cell" data-scrolled="true" data-execution_count="66">
 <div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co">#### get ERP ####</span></span>
 <span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a><span class="co"># get file names</span></span>
@@ -934,6 +944,132 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb11-41"><a href="#cb11-41" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(output_dir <span class="op">+</span> <span class="st">'/all_evokeds.pkl'</span>, <span class="st">'wb'</span>) <span class="im">as</span> f:</span>
 <span id="cb11-42"><a href="#cb11-42" aria-hidden="true" tabindex="-1"></a>    pickle.dump(all_evokeds, f)</span>
 <span id="cb11-43"><a href="#cb11-43" aria-hidden="true" tabindex="-1"></a><span class="co"># del all_evokeds</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+</section>
+<section id="visulization" class="level1" data-number="7">
+<h1 data-number="7"><span class="header-section-number">7</span> Visulization</h1>
+<section id="parameters-5" class="level2" data-number="7.1">
+<h2 data-number="7.1" class="anchored" data-anchor-id="parameters-5"><span class="header-section-number">7.1</span> parameters</h2>
+<div id="39d84526-e556-4eb6-8580-26d3a2f377bc" class="cell" data-execution_count="67">
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co"># directory</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>input_dir <span class="op">=</span> os.getcwd() <span class="op">+</span> <span class="st">'/preprocessed/5_averaged/'</span></span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a><span class="co"># participants to exclude</span></span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>exclude_ppts <span class="op">=</span> []</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="single-participant-single-condition-butterfly" class="level2" data-number="7.2">
+<h2 data-number="7.2" class="anchored" data-anchor-id="single-participant-single-condition-butterfly"><span class="header-section-number">7.2</span> single-participant, single-condition butterfly</h2>
+<div id="1298c152-cbb6-4685-b8bf-e4d93b505428" class="cell" data-execution_count="69">
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># read in the ERP data:</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(input_dir <span class="op">+</span> <span class="st">'/all_evokeds.pkl'</span>, <span class="st">'rb'</span>) <span class="im">as</span> <span class="bu">file</span>:  <span class="co"># Python 3: open(..., 'rb')</span></span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>    all_evokeds <span class="op">=</span> pickle.load(<span class="bu">file</span>)</span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a><span class="co"># get data</span></span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>evoked <span class="op">=</span> all_evokeds[<span class="st">'836'</span>][<span class="st">'local_noswitch_lunchbox'</span>]</span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a><span class="co"># waveform</span></span>
+<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a>evoked.plot()</span>
+<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-11"><a href="#cb13-11" aria-hidden="true" tabindex="-1"></a><span class="co"># scalp topography</span></span>
+<span id="cb13-12"><a href="#cb13-12" aria-hidden="true" tabindex="-1"></a>times <span class="op">=</span> [<span class="fl">0.1</span>, <span class="fl">0.2</span>, <span class="fl">0.3</span>, <span class="fl">0.4</span>, <span class="fl">0.5</span>, <span class="fl">0.6</span>]</span>
+<span id="cb13-13"><a href="#cb13-13" aria-hidden="true" tabindex="-1"></a>evoked.plot_topomap(times<span class="op">=</span>times, colorbar<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb13-14"><a href="#cb13-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-15"><a href="#cb13-15" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="codeswitch_preprocessing_itemlevel_files/figure-html/cell-14-output-1.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="codeswitch_preprocessing_itemlevel_files/figure-html/cell-14-output-2.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="topographical-subplots" class="level2" data-number="7.3">
+<h2 data-number="7.3" class="anchored" data-anchor-id="topographical-subplots"><span class="header-section-number">7.3</span> topographical subplots</h2>
+<div id="98b3054b-5daf-426e-ad9e-b4b8337f3069" class="cell" data-execution_count="100">
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="co"># read in the ERP data:</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(input_dir <span class="op">+</span> <span class="st">'/all_evokeds.pkl'</span>, <span class="st">'rb'</span>) <span class="im">as</span> <span class="bu">file</span>:</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>    all_evokeds <span class="op">=</span> pickle.load(<span class="bu">file</span>)</span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a><span class="co"># get the list of all participants that came this far</span></span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a>all_ppts <span class="op">=</span> <span class="bu">list</span>(all_evokeds.keys())</span>
+<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-8"><a href="#cb14-8" aria-hidden="true" tabindex="-1"></a><span class="co"># get participants that meet criteria</span></span>
+<span id="cb14-9"><a href="#cb14-9" aria-hidden="true" tabindex="-1"></a>sub_ppts <span class="op">=</span> []</span>
+<span id="cb14-10"><a href="#cb14-10" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> ppt <span class="kw">in</span> all_ppts:</span>
+<span id="cb14-11"><a href="#cb14-11" aria-hidden="true" tabindex="-1"></a>    <span class="co"># if it is not in the bad subject list # </span></span>
+<span id="cb14-12"><a href="#cb14-12" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> ppt <span class="kw">not</span> <span class="kw">in</span> exclude_ppts:</span>
+<span id="cb14-13"><a href="#cb14-13" aria-hidden="true" tabindex="-1"></a>        <span class="co"># append that subject to the list</span></span>
+<span id="cb14-14"><a href="#cb14-14" aria-hidden="true" tabindex="-1"></a>        sub_ppts.append(ppt)</span>
+<span id="cb14-15"><a href="#cb14-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-16"><a href="#cb14-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-17"><a href="#cb14-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-18"><a href="#cb14-18" aria-hidden="true" tabindex="-1"></a><span class="co"># extract ERPs for each condition</span></span>
+<span id="cb14-19"><a href="#cb14-19" aria-hidden="true" tabindex="-1"></a>local_switched <span class="op">=</span> []</span>
+<span id="cb14-20"><a href="#cb14-20" aria-hidden="true" tabindex="-1"></a>local_noswitch <span class="op">=</span> []</span>
+<span id="cb14-21"><a href="#cb14-21" aria-hidden="true" tabindex="-1"></a>mando_switched <span class="op">=</span> []</span>
+<span id="cb14-22"><a href="#cb14-22" aria-hidden="true" tabindex="-1"></a>mando_noswitch <span class="op">=</span> []</span>
+<span id="cb14-23"><a href="#cb14-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-24"><a href="#cb14-24" aria-hidden="true" tabindex="-1"></a><span class="co"># for each participant</span></span>
+<span id="cb14-25"><a href="#cb14-25" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> ppt <span class="kw">in</span> sub_ppts:</span>
+<span id="cb14-26"><a href="#cb14-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-27"><a href="#cb14-27" aria-hidden="true" tabindex="-1"></a>    <span class="co"># extract item labels</span></span>
+<span id="cb14-28"><a href="#cb14-28" aria-hidden="true" tabindex="-1"></a>    items <span class="op">=</span> all_evokeds[ppt].keys()</span>
+<span id="cb14-29"><a href="#cb14-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-30"><a href="#cb14-30" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> cond <span class="kw">in</span> [<span class="st">'local_switched'</span>, <span class="st">'local_noswitch'</span>, <span class="st">'mando_switched'</span>, <span class="st">'mando_noswitch'</span>]:</span>
+<span id="cb14-31"><a href="#cb14-31" aria-hidden="true" tabindex="-1"></a>        <span class="co"># get condition list</span></span>
+<span id="cb14-32"><a href="#cb14-32" aria-hidden="true" tabindex="-1"></a>        cond_list <span class="op">=</span> [ x <span class="cf">for</span> x <span class="kw">in</span> items <span class="cf">if</span> x.rsplit(<span class="st">'_'</span>, <span class="dv">1</span>)[<span class="dv">0</span>]<span class="op">==</span>cond ]</span>
+<span id="cb14-33"><a href="#cb14-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-34"><a href="#cb14-34" aria-hidden="true" tabindex="-1"></a>        <span class="co"># compute erp</span></span>
+<span id="cb14-35"><a href="#cb14-35" aria-hidden="true" tabindex="-1"></a>        tmp<span class="op">=</span> mne.combine_evoked([all_evokeds[ppt][x] <span class="cf">for</span> x <span class="kw">in</span> cond_list],</span>
+<span id="cb14-36"><a href="#cb14-36" aria-hidden="true" tabindex="-1"></a>                                     weights<span class="op">=</span><span class="st">'equal'</span>)</span>
+<span id="cb14-37"><a href="#cb14-37" aria-hidden="true" tabindex="-1"></a>        <span class="co"># append erp to list</span></span>
+<span id="cb14-38"><a href="#cb14-38" aria-hidden="true" tabindex="-1"></a>        <span class="bu">eval</span>(cond).append(tmp)</span>
+<span id="cb14-39"><a href="#cb14-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-40"><a href="#cb14-40" aria-hidden="true" tabindex="-1"></a><span class="co"># add erp data to dictionary for plotting</span></span>
+<span id="cb14-41"><a href="#cb14-41" aria-hidden="true" tabindex="-1"></a>evokeds <span class="op">=</span> {}</span>
+<span id="cb14-42"><a href="#cb14-42" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> cond <span class="kw">in</span> [<span class="st">'local_switched'</span>, <span class="st">'local_noswitch'</span>, <span class="st">'mando_switched'</span>, <span class="st">'mando_noswitch'</span>]:</span>
+<span id="cb14-43"><a href="#cb14-43" aria-hidden="true" tabindex="-1"></a>    evokeds[cond] <span class="op">=</span> <span class="bu">eval</span>(cond)</span>
+<span id="cb14-44"><a href="#cb14-44" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-45"><a href="#cb14-45" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-46"><a href="#cb14-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-47"><a href="#cb14-47" aria-hidden="true" tabindex="-1"></a><span class="co">################################</span></span>
+<span id="cb14-48"><a href="#cb14-48" aria-hidden="true" tabindex="-1"></a><span class="co">#### Topographical subplots ####</span></span>
+<span id="cb14-49"><a href="#cb14-49" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-50"><a href="#cb14-50" aria-hidden="true" tabindex="-1"></a><span class="co"># figure title for the waveform</span></span>
+<span id="cb14-51"><a href="#cb14-51" aria-hidden="true" tabindex="-1"></a>waveform_title <span class="op">=</span> <span class="st">'(n = '</span> <span class="op">+</span> <span class="bu">str</span>(<span class="bu">len</span>(sub_ppts)) <span class="op">+</span> <span class="st">')'</span></span>
+<span id="cb14-52"><a href="#cb14-52" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-53"><a href="#cb14-53" aria-hidden="true" tabindex="-1"></a><span class="co"># waveforms across scalp topo</span></span>
+<span id="cb14-54"><a href="#cb14-54" aria-hidden="true" tabindex="-1"></a><span class="co"># </span><span class="al">NOTE</span><span class="co">: I don't know how to save these plots using the code</span></span>
+<span id="cb14-55"><a href="#cb14-55" aria-hidden="true" tabindex="-1"></a>fig <span class="op">=</span> mne.viz.plot_compare_evokeds(</span>
+<span id="cb14-56"><a href="#cb14-56" aria-hidden="true" tabindex="-1"></a>    evokeds,</span>
+<span id="cb14-57"><a href="#cb14-57" aria-hidden="true" tabindex="-1"></a>    axes<span class="op">=</span><span class="st">'topo'</span>,</span>
+<span id="cb14-58"><a href="#cb14-58" aria-hidden="true" tabindex="-1"></a>    <span class="co"># picks=pick_chans,</span></span>
+<span id="cb14-59"><a href="#cb14-59" aria-hidden="true" tabindex="-1"></a>    <span class="co"># combine="mean",</span></span>
+<span id="cb14-60"><a href="#cb14-60" aria-hidden="true" tabindex="-1"></a>    show_sensors<span class="op">=</span><span class="va">True</span>,</span>
+<span id="cb14-61"><a href="#cb14-61" aria-hidden="true" tabindex="-1"></a>    <span class="co"># colors=colors,</span></span>
+<span id="cb14-62"><a href="#cb14-62" aria-hidden="true" tabindex="-1"></a>    title <span class="op">=</span> waveform_title,</span>
+<span id="cb14-63"><a href="#cb14-63" aria-hidden="true" tabindex="-1"></a>    <span class="co"># ylim=dict(eeg=[-5, 5]),</span></span>
+<span id="cb14-64"><a href="#cb14-64" aria-hidden="true" tabindex="-1"></a>    time_unit<span class="op">=</span><span class="st">"ms"</span>,</span>
+<span id="cb14-65"><a href="#cb14-65" aria-hidden="true" tabindex="-1"></a>    show<span class="op">=</span><span class="va">False</span>,</span>
+<span id="cb14-66"><a href="#cb14-66" aria-hidden="true" tabindex="-1"></a>)<span class="op">;</span></span>
+<span id="cb14-67"><a href="#cb14-67" aria-hidden="true" tabindex="-1"></a><span class="co">##############################</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="codeswitch_preprocessing_itemlevel_files/figure-html/cell-15-output-1.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
 </div>
 </section>
 </section>
