@@ -1,0 +1,19 @@
+
+menu:
+- {name: 'About',   url: '/about'}
+- {name: 'Research', url: '/research'}
+# - {name: 'CV', url: '/assets/file/cv_chaohan.pdf', blank: true}
+- {name: 'CV', url: '/cv'}
+
+# Available social icons are powered by Font Awesome, so you can use any icon that they offer
+social:
+- {icon: 'fa-solid fa-envelope',           link: 'mailto:chao.han@utoronto.ca'}
+- {icon: 'fa-brands fa-github',            link: 'https://github.com/chaohanch'}
+- {icon: 'fa-brands fa-google-scholar',    link: 'https://scholar.google.com/citations?user=-IW2glMAAAAJ&hl=en'}
+- {icon: 'fa-brands fa-twitter',           link: 'https://x.com/chaohanch/'}
+- {icon: 'fa-brands fa-linkedin',          link: 'https://www.linkedin.com/in/chaohanch/'}
+
+# Customize site text
+pagination:
+  next_page: 'Newer'
+  previous_page: 'Older'
