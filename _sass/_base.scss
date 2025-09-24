@@ -34,12 +34,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-  text-decoration: underline;
-  color: $dark-gray-color;
+  text-decoration: none;
+  color: $link-color;
 }
 
 a:hover {
-  color: $link-color;
+  color: $link-hover-color;
   border-bottom: none;
 }
 
@@ -70,6 +70,12 @@ a:hover {
 // .profile-photo:hover .profile-photo__base {
 //   opacity: 0;
 // }
+
+// author name highlight
+.author {
+  color:#007FA3;
+  font-weight: bold;
+}
 
 
 
