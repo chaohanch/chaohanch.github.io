@@ -8,6 +8,7 @@ body {
   color: $body-color;
   line-height: 1.75rem;
   overflow-y: scroll;
+  font-weight: 400;
 }
 
 @media (max-width: $elements-responsive-width) {
@@ -31,6 +32,7 @@ h1 a {
 h1, h2, h3, h4, h5, h6 {
   font-family: $sans-serif-font-family;
   color: $dark-gray-color;
+  // font-weight: 600;
 }
 
 a {
@@ -74,7 +76,7 @@ a:hover {
 // author name highlight
 .author {
   color:#007FA3;
-  font-weight: bold;
+  // font-weight: bold;
 }
 
 
