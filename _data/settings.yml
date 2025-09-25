@@ -2,7 +2,6 @@
 menu:
 - {name: 'About',   url: '/about'}
 - {name: 'Research', url: '/research'}
-# - {name: 'CV', url: '/assets/file/cv_chaohan.pdf', blank: true}
 - {name: 'CV', url: '/cv'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
