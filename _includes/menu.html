@@ -1,13 +1,10 @@
 <div class="menu">
-  <nav class="menu-content">
-    <!-- {% assign current = page.url | default: '/' %} -->
-    {% assign current = page.url %}
+  <nav class="menu-content" aria-label="Site">
     {% for item in site.data.settings.menu %}
-      <a href="{{ site.github.url }}{{ item.url }}"
-         class="{% if item.url == current %} is-active {% endif %}">{{ item.name }}</a>
+      <a href="{{ item.url | relative_url }}"{% if item.url == page.url %} aria-current="page"{% endif %}>{{ item.name }}</a>
     {% endfor %}
   </nav>
-  <nav class="social-icons">
+  <nav class="social-icons" aria-label="Contact and profiles">
     {% include social-icons.html %}
   </nav>
 </div>
