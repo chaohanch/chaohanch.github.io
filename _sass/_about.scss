@@ -5,16 +5,21 @@
 .about-intro {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(15rem, 34%);
-  align-items: center;
+  align-items: start;
   gap: clamp(1.5rem, 5vw, 4rem);
 }
 
-.about-page .about-intro h1 {
-  font-size: clamp(2.75rem, 7vw, 4.75rem);
+.about-title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
 }
 
 .about-intro p {
-  margin: 1rem 0 0;
+  margin: 0;
   font-size: 1.125rem;
 }
 

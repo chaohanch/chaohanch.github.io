@@ -2,9 +2,9 @@
 layout: default
 ---
 
+<h1 class="about-title">About {{ site.title | escape }}</h1>
 <div class="about-intro">
   <div>
-    <h1>{{ site.title | escape }}</h1>
     {{ page.introduction | markdownify }}
   </div>
   <figure class="profile-photo">
