@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /cv
-cv_file: cv_chaohan_2026-11.pdf
+cv_file: CV_2026-11.pdf
 ---
 
 {% assign cv_url = '/assets/files/' | append: page.cv_file | relative_url %}

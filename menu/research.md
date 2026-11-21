@@ -3,19 +3,16 @@ layout: page
 permalink: /research
 ---
 
-<h2 style="margin:2rem 0 0"> Sumibtted </h2 >
-<hr style="margin:0.5rem 0 0">
-
-<span class="author">Han, C.</span>, Hestvik, A., Idsardi, W. (under review) Evoked category representations
-
 <h2 style="margin:2rem 0 0"> Journal articles </h2 >
 <hr style="margin:0.5rem 0 0">
 
-Dong, Z., <span class="author">Han, C.</span>, & Li, S. (in press). Feedback explicitness, working memory, and explicit knowledge in classroom-based second language Mandarin tone learning. _Language Teaching Research_. [<i class="ai ai-doi" aria-hidden="true"></i>](https://doi.org/10.1177/13621688251378559)
+<span class="author">Han, C.</span>, Hestvik, A., & Idsardi, W. (2026). Within-category mismatch responses to parametrically varying speech sounds. _European Journal of Neuroscience, 63_(8), e70482. [<i class="ai ai-doi" aria-hidden="true"></i>](https://doi.org/10.1111/ejn.70482)
 
-Asami, D., <span class="author">Han, C.</span>, Burger, J., Dunlop, D., Lu, Y., Yahya M Morad, E., Zhao, C., & Hestvik, A. (2025). “Negation-blind” N400 effect disappears when lexical priming is controlled. _Experiments in Linguistic Meaning, 3_, 19–31. [<i class="ai ai-doi" aria-hidden="true"></i>](https://doi.org/10.3765/elm.3.5800)
+Hong, L. L., <span class="author">Han, C.</span>, & Monahan, P. J. (2026). Language experience shapes neural grouping of speech by accent: EEG evidence from native, second-language, and heritage listeners. _Brain Sciences, 16_(2), 174. [<i class="ai ai-doi" aria-hidden="true"></i>](https://doi.org/10.3390/brainsci16020174)
 
-Shinohara, Y., <span class="author">Han, C.</span>, & Hestvik, A. (2023). English Vowel Discrimination and Perceptual Assimilation by Japanese Listeners. _Language and Speech, 67_(4), 945–960. [<i class="ai ai-doi" aria-hidden="true"></i>](https://doi.org/10.1177/00238309231209311)
+Dong, Z. R., <span class="author">Han, C.</span>, & Li, S. (2025). Feedback explicitness, working memory, and explicit knowledge in online classroom-based second language Mandarin tone learning. _Language Teaching Research_. [<i class="ai ai-doi" aria-hidden="true"></i>](https://doi.org/10.1177/13621688251378559)
+
+Shinohara, Y., <span class="author">Han, C.</span>, & Hestvik, A. (2024). English vowel discrimination and perceptual assimilation by Japanese listeners. _Language and Speech, 67_(4), 945–960. [<i class="ai ai-doi" aria-hidden="true"></i>](https://doi.org/10.1177/00238309231209311)
 
 Dong, Z. R., <span class="author">Han, C.</span>, Hestvik, A., & Hermon, G. (2023). L2 processing of filled gaps: Non-native brain activity not modulated by proficiency and working memory. _Linguistic Approaches to Bilingualism, 13_(6), 767–800. [<i class="ai ai-doi" aria-hidden="true"></i>](https://doi.org/10.1075/lab.20058.don)
 
@@ -26,8 +23,23 @@ Rhodes, R., Avcu, E., <span class="author">Han, C.</span>, & Hestvik, A. (2022).
 Rhodes, R., <span class="author">Han, C.</span>, & Hestvik, A. (2019). Phonological memory traces do not contain phonetic information. _Attention, Perception, & Psychophysics, 81_(4), 897–911. [<i class="ai ai-doi" aria-hidden="true"></i>](https://doi.org/10.3758/s13414-019-01728-1)
 
 
+<h2 style="margin:2rem 0 0">Manuscripts under review</h2>
+<hr style="margin:0.5rem 0 0">
+
+<span class="author">Han, C.</span>, Kang, Y., Cho, J., Lim, T.-W., Kim, S. Y., & Monahan, P. J. (under review). The functional status of f0 shapes the neural encoding of English stop voicing contrasts: Evidence from Korean and English listeners. _Language, Cognition and Neuroscience_.
+
+Dong, Z. R., <span class="author">Han, C.</span>, & Li, S. (under review). The joint effects of anxiety, boredom, and grit on the motivated behavior of U.S. university learners of Spanish. _Studies in Second Language Learning and Teaching_.
+
+Patil, K. N., <span class="author">Han, C.</span>, & Monahan, P. J. (under review). I like when you speak my language: Talker accent modulates evoked and induced neurophysiological processing of code-switched speech. _Cortex_.
+
+Dong, Z. R., <span class="author">Han, C.</span>, & Zhao, X. (under review). When vision meets emotional difficulty: The role of L2 grit in linking the ideal L2 self to achievement among U.S. university learners of Spanish. _Language Teaching Research_.
+
+Dong, Z. R., <span class="author">Han, C.</span>, Li, S., & Qian, Z. (under review). How does enjoyment translate into motivated behavior? The mediating role of L2 grit among college-level learners of Chinese as a foreign language in North America. _System_.
+
 <h2 style="margin:2rem 0 0">Proceedings</h2>
 <hr style="margin:0.5rem 0 0">
+
+Asami, D., <span class="author">Han, C.</span>, Burger, J., Dunlop, D., Lu, Y., Yahya M Morad, E., Zhao, C., & Hestvik, A. (2025). “Negation-blind” N400 effect disappears when lexical priming is controlled. _Experiments in Linguistic Meaning, 3_, 19–31. [<i class="ai ai-doi" aria-hidden="true"></i>](https://doi.org/10.3765/elm.3.5800)
 
 Hestvik, A., Morlet, T., Nagao, K., & <span class="author">Han, C.</span> (2023) Auditory processing disorder targets phonetics, not phonology. In P. Gappmayr & J. Kellogg (Eds.), _Proceedings of the 47th Annual Boston University Conference on Language Development, Somerville, MA: Cascadilla Press_ (pp. 356-365). [<i class="fa-solid fa-file-pdf"></i>](https://pmc.ncbi.nlm.nih.gov/articles/PMC10410628/pdf/nihms-1922393.pdf)
 
