@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Publication
-hide_title: true
 body_class: site-page publication-page
 permalink: /publication
 ---

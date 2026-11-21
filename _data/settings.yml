@@ -19,8 +19,3 @@ social:
 - {name: 'Google Scholar', icon: 'fa-brands fa-google-scholar',  link: 'https://scholar.google.com/citations?user=-IW2glMAAAAJ&hl=en'}
 - {name: 'ResearchGate',   icon: 'fa-brands fa-researchgate',    link: 'https://www.researchgate.net/profile/Chao-Han-2'}
 - {name: 'LinkedIn',       icon: 'fa-brands fa-linkedin',        link: 'https://www.linkedin.com/in/chaohanch/'}
-
-# Customize site text
-pagination:
-  next_page: 'Newer'
-  previous_page: 'Older'

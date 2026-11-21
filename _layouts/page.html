@@ -2,18 +2,7 @@
 layout: default
 ---
 
-<h1{% if page.hide_title %} class="visually-hidden"{% endif %}>
-  {{ page.title }}
-</h1>
-
-{% if page.image %}
-  <figure class="profile-photo" style="width:235px; height:auto">
-    <img src="{{ site.github.url }}/assets/img/{{ page.image }}">
-    {% if page.image_hover %}
-      <img class="profile-photo__hover" src="{{ site.github.url }}/assets/img/{{ page.image_hover }}">
-    {% endif %}
-  </figure>
-{% endif %}
+<h1 class="visually-hidden">{{ page.title | escape }}</h1>
 
 <article>
   {{ content }}

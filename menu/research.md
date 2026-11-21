@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Research
-hide_title: true
 body_class: site-page research-page
 permalink: /research
 ---
