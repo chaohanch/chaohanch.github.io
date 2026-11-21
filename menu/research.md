@@ -1,30 +1,29 @@
 ---
 layout: page
+title: Research
+body_class: site-page research-page
 permalink: /research
 ---
 
-<h2 style="margin:2rem 0 0"> Journal articles </h2 >
-<hr style="margin:0.5rem 0 0">
+## Journal articles
 
-<span class="author">Han, C.</span>, Hestvik, A., & Idsardi, W. (2026). Within-category mismatch responses to parametrically varying speech sounds. _European Journal of Neuroscience, 63_(8), e70482. [<i class="ai ai-doi" aria-hidden="true"></i>](https://doi.org/10.1111/ejn.70482)
+<span class="author">Han, C.</span>, Hestvik, A., & Idsardi, W. (2026). Within-category mismatch responses to parametrically varying speech sounds. _European Journal of Neuroscience, 63_(8), e70482. [DOI](https://doi.org/10.1111/ejn.70482)
 
-Hong, L. L., <span class="author">Han, C.</span>, & Monahan, P. J. (2026). Language experience shapes neural grouping of speech by accent: EEG evidence from native, second-language, and heritage listeners. _Brain Sciences, 16_(2), 174. [<i class="ai ai-doi" aria-hidden="true"></i>](https://doi.org/10.3390/brainsci16020174)
+Hong, L. L., <span class="author">Han, C.</span>, & Monahan, P. J. (2026). Language experience shapes neural grouping of speech by accent: EEG evidence from native, second-language, and heritage listeners. _Brain Sciences, 16_(2), 174. [DOI](https://doi.org/10.3390/brainsci16020174)
 
-Dong, Z. R., <span class="author">Han, C.</span>, & Li, S. (2025). Feedback explicitness, working memory, and explicit knowledge in online classroom-based second language Mandarin tone learning. _Language Teaching Research_. [<i class="ai ai-doi" aria-hidden="true"></i>](https://doi.org/10.1177/13621688251378559)
+Dong, Z. R., <span class="author">Han, C.</span>, & Li, S. (2025). Feedback explicitness, working memory, and explicit knowledge in online classroom-based second language Mandarin tone learning. _Language Teaching Research_. [DOI](https://doi.org/10.1177/13621688251378559)
 
-Shinohara, Y., <span class="author">Han, C.</span>, & Hestvik, A. (2024). English vowel discrimination and perceptual assimilation by Japanese listeners. _Language and Speech, 67_(4), 945–960. [<i class="ai ai-doi" aria-hidden="true"></i>](https://doi.org/10.1177/00238309231209311)
+Shinohara, Y., <span class="author">Han, C.</span>, & Hestvik, A. (2024). English vowel discrimination and perceptual assimilation by Japanese listeners. _Language and Speech, 67_(4), 945–960. [DOI](https://doi.org/10.1177/00238309231209311)
 
-Dong, Z. R., <span class="author">Han, C.</span>, Hestvik, A., & Hermon, G. (2023). L2 processing of filled gaps: Non-native brain activity not modulated by proficiency and working memory. _Linguistic Approaches to Bilingualism, 13_(6), 767–800. [<i class="ai ai-doi" aria-hidden="true"></i>](https://doi.org/10.1075/lab.20058.don)
+Dong, Z. R., <span class="author">Han, C.</span>, Hestvik, A., & Hermon, G. (2023). L2 processing of filled gaps: Non-native brain activity not modulated by proficiency and working memory. _Linguistic Approaches to Bilingualism, 13_(6), 767–800. [DOI](https://doi.org/10.1075/lab.20058.don)
 
-Shinohara, Y., <span class="author">Han, C.</span>, & Hestvik, A. (2022). Discriminability and prototypicality of non-native vowels. _Studies in Second Language Acquisition, 44_(5), 1260–1278. [<i class="ai ai-doi" aria-hidden="true"></i>](https://doi.org/10.1017/S0272263121000978)
+Shinohara, Y., <span class="author">Han, C.</span>, & Hestvik, A. (2022). Discriminability and prototypicality of non-native vowels. _Studies in Second Language Acquisition, 44_(5), 1260–1278. [DOI](https://doi.org/10.1017/S0272263121000978)
 
-Rhodes, R., Avcu, E., <span class="author">Han, C.</span>, & Hestvik, A. (2022). Auditory predictions are phonological when phonetic information is variable. _Language, Cognition and Neuroscience, 37_(9), 1099–1114. [<i class="ai ai-doi" aria-hidden="true"></i>](https://doi.org/10.1080/23273798.2022.2043395)
+Rhodes, R., Avcu, E., <span class="author">Han, C.</span>, & Hestvik, A. (2022). Auditory predictions are phonological when phonetic information is variable. _Language, Cognition and Neuroscience, 37_(9), 1099–1114. [DOI](https://doi.org/10.1080/23273798.2022.2043395)
 
-Rhodes, R., <span class="author">Han, C.</span>, & Hestvik, A. (2019). Phonological memory traces do not contain phonetic information. _Attention, Perception, & Psychophysics, 81_(4), 897–911. [<i class="ai ai-doi" aria-hidden="true"></i>](https://doi.org/10.3758/s13414-019-01728-1)
+Rhodes, R., <span class="author">Han, C.</span>, & Hestvik, A. (2019). Phonological memory traces do not contain phonetic information. _Attention, Perception, & Psychophysics, 81_(4), 897–911. [DOI](https://doi.org/10.3758/s13414-019-01728-1)
 
-
-<h2 style="margin:2rem 0 0">Manuscripts under review</h2>
-<hr style="margin:0.5rem 0 0">
+## Manuscripts under review
 
 <span class="author">Han, C.</span>, Kang, Y., Cho, J., Lim, T.-W., Kim, S. Y., & Monahan, P. J. (under review). The functional status of f0 shapes the neural encoding of English stop voicing contrasts: Evidence from Korean and English listeners. _Language, Cognition and Neuroscience_.
 
@@ -36,19 +35,18 @@ Dong, Z. R., <span class="author">Han, C.</span>, & Zhao, X. (under review). Whe
 
 Dong, Z. R., <span class="author">Han, C.</span>, Li, S., & Qian, Z. (under review). How does enjoyment translate into motivated behavior? The mediating role of L2 grit among college-level learners of Chinese as a foreign language in North America. _System_.
 
-<h2 style="margin:2rem 0 0">Proceedings</h2>
-<hr style="margin:0.5rem 0 0">
+## Proceedings
 
-Asami, D., <span class="author">Han, C.</span>, Burger, J., Dunlop, D., Lu, Y., Yahya M Morad, E., Zhao, C., & Hestvik, A. (2025). “Negation-blind” N400 effect disappears when lexical priming is controlled. _Experiments in Linguistic Meaning, 3_, 19–31. [<i class="ai ai-doi" aria-hidden="true"></i>](https://doi.org/10.3765/elm.3.5800)
+Asami, D., <span class="author">Han, C.</span>, Burger, J., Dunlop, D., Lu, Y., Yahya M Morad, E., Zhao, C., & Hestvik, A. (2025). “Negation-blind” N400 effect disappears when lexical priming is controlled. _Experiments in Linguistic Meaning, 3_, 19–31. [DOI](https://doi.org/10.3765/elm.3.5800)
 
-Hestvik, A., Morlet, T., Nagao, K., & <span class="author">Han, C.</span> (2023) Auditory processing disorder targets phonetics, not phonology. In P. Gappmayr & J. Kellogg (Eds.), _Proceedings of the 47th Annual Boston University Conference on Language Development, Somerville, MA: Cascadilla Press_ (pp. 356-365). [<i class="fa-solid fa-file-pdf"></i>](https://pmc.ncbi.nlm.nih.gov/articles/PMC10410628/pdf/nihms-1922393.pdf)
+Hestvik, A., Morlet, T., Nagao, K., & <span class="author">Han, C.</span> (2023) Auditory processing disorder targets phonetics, not phonology. In P. Gappmayr & J. Kellogg (Eds.), _Proceedings of the 47th Annual Boston University Conference on Language Development, Somerville, MA: Cascadilla Press_ (pp. 356-365). [PDF](https://pmc.ncbi.nlm.nih.gov/articles/PMC10410628/pdf/nihms-1922393.pdf)
 
-<span class="author">Han, C.</span>, Vogel, I., Yuan, Y., Athanasopoulou, A. (2020) Perceptual confusion of Mandarin tone 3 and tone 4. _University of Pennsylvania Working Papers in Linguistics, 26_(1), 12, 97-103. [<i class="fa-solid fa-file-pdf"></i>](https://repository.upenn.edu/cgi/viewcontent.cgi?article=2088&context=pwpl)
+<span class="author">Han, C.</span>, Vogel, I., Yuan, Y., Athanasopoulou, A. (2020) Perceptual confusion of Mandarin tone 3 and tone 4. _University of Pennsylvania Working Papers in Linguistics, 26_(1), 12, 97-103. [PDF](https://repository.upenn.edu/cgi/viewcontent.cgi?article=2088&context=pwpl)
 
-Rhodes, R., <span class="author">Han, C.</span>, Hestvik, A. (2019) Ad hoc phonetic categorization and prediction. In S. Calhoun, P. Escudero, M. Tabain, & P. Warren (Eds.), _Proceedings of the 19th International Congress of Phonetic Sciences, Melbourne, Australia_ (pp. 1223-1227). [<i class="fa-solid fa-file-pdf"></i>](https://www.internationalphoneticassociation.org/icphs-proceedings/ICPhS2019/papers/ICPhS_1272.pdf)
+Rhodes, R., <span class="author">Han, C.</span>, Hestvik, A. (2019) Ad hoc phonetic categorization and prediction. In S. Calhoun, P. Escudero, M. Tabain, & P. Warren (Eds.), _Proceedings of the 19th International Congress of Phonetic Sciences, Melbourne, Australia_ (pp. 1223-1227). [PDF](https://www.internationalphoneticassociation.org/icphs-proceedings/ICPhS2019/papers/ICPhS_1272.pdf)
 
-Shinohara, Y., <span class="author">Han, C.</span>, Hestvik, A. Effects of perceptual assimilation: The perception of English /æ/, /ʌ/, and /ɑ/ by Japanese speakers. (2019). In S. Calhoun, P. Escudero, M. Tabain, & P. Warren (Eds.), _Proceedings of the 19th International Congress of Phonetic Sciences, Melbourne, Australia_ (pp. 2344-2348). [<i class="fa-solid fa-file-pdf"></i>](https://www.internationalphoneticassociation.org/icphs-proceedings/ICPhS2019/papers/ICPhS_2393.pdf)
+Shinohara, Y., <span class="author">Han, C.</span>, Hestvik, A. Effects of perceptual assimilation: The perception of English /æ/, /ʌ/, and /ɑ/ by Japanese speakers. (2019). In S. Calhoun, P. Escudero, M. Tabain, & P. Warren (Eds.), _Proceedings of the 19th International Congress of Phonetic Sciences, Melbourne, Australia_ (pp. 2344-2348). [PDF](https://www.internationalphoneticassociation.org/icphs-proceedings/ICPhS2019/papers/ICPhS_2393.pdf)
 
-Vogel, I., Athanasopoulou, A., <span class="author">Han, C.</span>, Yue, Y. (2019) How perceptible is the difference between tone 3 and tone 4 in Mandarin Chinese? In S. Calhoun, P. Escudero, M. Tabain, & P. Warren (Eds.), _Proceedings of the 19th International Congress of Phonetic Sciences, Melbourne, Australia_ (pp. 2027-2031). [<i class="fa-solid fa-file-pdf"></i>](https://www.internationalphoneticassociation.org/icphs-proceedings/ICPhS2019/papers/ICPhS_2076.pdf)
+Vogel, I., Athanasopoulou, A., <span class="author">Han, C.</span>, Yue, Y. (2019) How perceptible is the difference between tone 3 and tone 4 in Mandarin Chinese? In S. Calhoun, P. Escudero, M. Tabain, & P. Warren (Eds.), _Proceedings of the 19th International Congress of Phonetic Sciences, Melbourne, Australia_ (pp. 2027-2031). [PDF](https://www.internationalphoneticassociation.org/icphs-proceedings/ICPhS2019/papers/ICPhS_2076.pdf)
 
-Athanasopoulou, A., Vogel, I., <span class="author">Han, C.</span>, Yue, Y. (2019) Confusability of Mandarin tone 3 and tone 4: effects of focus and syllable position. In S. Calhoun, P. Escudero, M. Tabain, & P. Warren (Eds.), _Proceedings of the 19th International Congress of Phonetic Sciences, Melbourne, Australia_ (pp. 442-446). [<i class="fa-solid fa-file-pdf"></i>](https://assta.org/proceedings/ICPhS2019/papers/ICPhS_491.pdf)
+Athanasopoulou, A., Vogel, I., <span class="author">Han, C.</span>, Yue, Y. (2019) Confusability of Mandarin tone 3 and tone 4: effects of focus and syllable position. In S. Calhoun, P. Escudero, M. Tabain, & P. Warren (Eds.), _Proceedings of the 19th International Congress of Phonetic Sciences, Melbourne, Australia_ (pp. 442-446). [PDF](https://assta.org/proceedings/ICPhS2019/papers/ICPhS_491.pdf)

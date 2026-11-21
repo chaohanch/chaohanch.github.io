@@ -1,7 +1,7 @@
 ---
 layout: about
 title: About
-body_class: about-page
+body_class: site-page about-page
 image: chaohan.jpg
 image_hover: chaohan_duck.jpg
 permalink: /about

@@ -1,0 +1,24 @@
+.cv-page .content-container .cv-download {
+  display: inline-block;
+  margin: 1.25rem 0 1rem;
+  padding: 0.45rem 0.85rem;
+  border: 1px solid $teal;
+  border-radius: 0.25rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.cv-page .content-container .cv-download:hover {
+  background: $teal;
+  color: $warm-white;
+}
+
+.cv-preview {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  height: clamp(25rem, 78vh, 57rem);
+  border: 1px solid $rule-color;
+  border-radius: 0.25rem;
+  background: white;
+}
