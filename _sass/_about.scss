@@ -20,7 +20,18 @@
 
 .about-intro p {
   margin: 0;
+}
+
+.about-intro p:first-child {
   font-size: 1.125rem;
+}
+
+.about-intro p + p {
+  margin-top: 1rem;
+}
+
+.about-profile {
+  margin: 0;
 }
 
 .about-intro .profile-photo {
@@ -31,6 +42,26 @@
   display: block;
   width: 100%;
   border-radius: 0.5rem;
+}
+
+.about-profile figcaption {
+  margin-top: 0.75rem;
+  color: $muted-green;
+  font-size: 1rem;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.about-profile figcaption span {
+  display: block;
+}
+
+.about-profile .profile-name {
+  margin-bottom: 0.2rem;
+  color: $pine;
+  font-family: $heading-font-family;
+  font-size: 1.35rem;
+  font-weight: 600;
 }
 
 .about-details {
@@ -63,7 +94,7 @@
     grid-template-columns: minmax(0, 1fr);
   }
 
-  .about-intro .profile-photo {
+  .about-profile {
     max-width: 21rem;
   }
 }

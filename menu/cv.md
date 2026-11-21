@@ -3,7 +3,7 @@ layout: page
 title: Curriculum vitae
 body_class: site-page cv-page
 permalink: /cv
-cv_file: CV_2026-11.pdf
+cv_file: CV_2026-11_web.pdf
 ---
 
 {% assign cv_url = '/assets/files/' | append: page.cv_file | relative_url %}

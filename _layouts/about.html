@@ -3,18 +3,4 @@ layout: default
 ---
 
 <h1 class="about-title">About {{ site.title | escape }}</h1>
-<div class="about-intro">
-  <div>
-    {{ page.introduction | markdownify }}
-  </div>
-  <figure class="profile-photo">
-    <img src="{{ page.image | prepend: '/assets/img/' | relative_url }}" alt="Portrait of {{ site.title | escape }}" width="800" height="600">
-    {% if page.image_hover %}
-      <img class="profile-photo__hover" src="{{ page.image_hover | prepend: '/assets/img/' | relative_url }}" alt="" width="800" height="600">
-    {% endif %}
-  </figure>
-</div>
-
-<div class="about-details">
-  {{ content }}
-</div>
+{{ content }}
