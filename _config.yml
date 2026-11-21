@@ -13,7 +13,8 @@ plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-t
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title:		           'Chao Han'
 description:	       ''
-author:              'Paul Le'
+author:              'Chao Han'
+theme_author:        'Paul Le'
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:
