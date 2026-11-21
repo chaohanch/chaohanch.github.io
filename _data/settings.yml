@@ -1,8 +1,15 @@
 
 menu:
-- {name: 'About',   url: '/about'}
+- {name: 'About',   url: '/'}
 - {name: 'Research', url: '/research'}
 - {name: 'CV', url: '/cv'}
+
+profile:
+  image: chaohan.jpg
+  image_hover: chaohan_duck.jpg
+  position: Postdoctoral Fellow
+  affiliation: University of Toronto Scarborough
+  affiliation_url: https://www.utsc.utoronto.ca/home/
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:

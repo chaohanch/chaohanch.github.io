@@ -1,13 +1,14 @@
+{% assign profile = site.data.settings.profile %}
 <figure class="about-profile">
   <div class="profile-photo">
-    <img src="{{ page.image | prepend: '/assets/img/' | relative_url }}" alt="Portrait of {{ site.title | escape }}" width="800" height="600">
-    {% if page.image_hover %}
-      <img class="profile-photo__hover" src="{{ page.image_hover | prepend: '/assets/img/' | relative_url }}" alt="" width="800" height="600">
+    <img src="{{ profile.image | prepend: '/assets/img/' | relative_url }}" alt="Portrait of {{ site.title | escape }}" width="800" height="600">
+    {% if profile.image_hover %}
+      <img class="profile-photo__hover" src="{{ profile.image_hover | prepend: '/assets/img/' | relative_url }}" alt="" width="800" height="600">
     {% endif %}
   </div>
   <figcaption>
     <span class="profile-name">{{ site.title | escape }}</span>
-    <span>{{ page.position | escape }}</span>
-    <span><a href="{{ page.affiliation_url | escape }}">{{ page.affiliation | escape }}</a></span>
+    <span>{{ profile.position | escape }}</span>
+    <span><a href="{{ profile.affiliation_url | escape }}">{{ profile.affiliation | escape }}</a></span>
   </figcaption>
 </figure>

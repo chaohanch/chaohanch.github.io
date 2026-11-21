@@ -1,7 +1,8 @@
 <div class="menu">
   <nav class="menu-content" aria-label="Site">
+    {% assign current_url = page.navigation_url | default: page.url %}
     {% for item in site.data.settings.menu %}
-      <a href="{{ item.url | relative_url }}"{% if item.url == page.url %} aria-current="page"{% endif %}>{{ item.name }}</a>
+      <a href="{{ item.url | relative_url }}"{% if item.url == current_url %} aria-current="page"{% endif %}>{{ item.name }}</a>
     {% endfor %}
   </nav>
   <nav class="social-icons" aria-label="Contact and profiles">

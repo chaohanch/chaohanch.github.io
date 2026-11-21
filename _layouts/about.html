@@ -3,4 +3,5 @@ layout: default
 ---
 
 <h1 class="visually-hidden">About {{ site.title | escape }}</h1>
-{{ content }}
+{% capture about_content %}{% include about-content.md %}{% endcapture %}
+{{ about_content | markdownify }}

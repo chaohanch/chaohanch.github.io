@@ -73,10 +73,6 @@
   outline-offset: 3px;
 }
 
-.site-page .footer a {
-  color: $muted-green;
-}
-
 @media (max-width: 42em) {
   .site-page {
     font-size: 1rem;
@@ -163,25 +159,25 @@
 */
 
 .footer {
-  color: $light-gray-color;
+  color: #6b6b6b;
   text-align: center;
   margin: 2rem;
 }
 
 .footer a {
-  color: $light-gray-color;
+  color: $muted-green;
   text-decoration: none;
 }
 
-.footer a:hover {
+.footer a:is(:hover, :focus-visible) {
   color: $dark-gray-color;
+  text-decoration: underline;
 }
 
 .footer-description {
   display: block;
   margin-top:3px;
   margin-bottom: 1rem;
-  color: $light-gray-color;
   font-family: $sans-serif-font-family;
   font-size:0.8rem;
 }

@@ -12,7 +12,8 @@ plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-t
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title:		           'Chao Han'
-description:	       ''
+url:                 'https://chaohanch.github.io'
+description:         'Chao Han is a postdoctoral fellow at the University of Toronto Scarborough studying how the brain processes speech across languages.'
 author:              'Chao Han'
 theme_author:        'Paul Le'
 

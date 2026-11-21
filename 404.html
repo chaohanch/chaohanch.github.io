@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "404: Page not found"
+body_class: site-page
 permalink: 404.html
 ---
 
@@ -8,7 +9,7 @@ permalink: 404.html
   <h1 class="page-title">404: Page not found</h1>
 
   <p class="lead">Sorry, I can't find what you're looking for, but here's my cat.</p>
-  
-  <img src="/assets/img/cat.jpg" width="380px" height="auto">
+
+  <img src="{{ '/assets/img/cat.jpg' | relative_url }}" alt="Chao Han’s cat" width="380" height="475">
 
 </div>
