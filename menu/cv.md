@@ -1,8 +1,11 @@
 ---
 layout: page
 permalink: /cv
+cv_file: cv_chaohan_2026-11.pdf
 ---
 
-You can download my CV by clicking [here]({{ site.github.url }}/assets/files/cv_chaohan.pdf).
+{% assign cv_url = '/assets/files/' | append: page.cv_file | relative_url %}
 
-<embed src="{{ site.github.url }}/assets/files/cv_chaohan.pdf" width="100%" height="800">
+You can download my CV by clicking [here]({{ cv_url }}).
+
+<embed src="{{ cv_url }}" width="100%" height="800">
