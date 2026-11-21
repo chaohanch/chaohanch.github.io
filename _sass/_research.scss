@@ -1,24 +1,39 @@
-.research-page .content-container {
+:is(.research-page, .publication-page) .content-container {
   max-width: 48rem;
 }
 
-.research-page .content-container h2 {
+:is(.research-page, .publication-page) .content-container h2 {
+  font-size: clamp(1.5rem, 3.5vw, 1.75rem);
   margin: 2rem 0 1rem;
   padding-top: 1.25rem;
   border-top: 1px solid $rule-color;
 }
 
-.research-page .content-container h2:first-child {
+:is(.research-page, .publication-page) .content-container h2:first-child {
   margin-top: 0;
   padding-top: 0;
   border-top: 0;
 }
 
-.research-page article p {
+.research-page article ul {
+  padding-left: 1.2em;
+}
+
+.research-page article li + li {
+  margin-top: 0.75rem;
+}
+
+.research-page article li a {
+  display: block;
+  width: fit-content;
+  font-size: 1rem;
+}
+
+.publication-page article p {
   margin: 0 0 1rem;
 }
 
-.research-page .author {
+.publication-page .author {
   color: $pine;
   font-weight: 600;
 }

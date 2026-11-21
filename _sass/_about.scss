@@ -55,31 +55,6 @@
   font-weight: 600;
 }
 
-.about-details {
-  max-width: 66ch;
-  margin-top: 1.5rem;
-}
-
-.about-page .about-details h2 {
-  margin-top: 2.5rem;
-  padding-top: 1.5rem;
-  border-top: 1px solid $rule-color;
-}
-
-.about-details ul {
-  padding-left: 1.2em;
-}
-
-.about-details li + li {
-  margin-top: 0.75rem;
-}
-
-.about-details li a {
-  display: block;
-  width: fit-content;
-  font-size: 1rem;
-}
-
 @media (max-width: 42em) {
   .about-intro {
     grid-template-columns: minmax(0, 1fr);
