@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<h1>
+<h1{% if page.hide_title %} class="visually-hidden"{% endif %}>
   {{ page.title }}
 </h1>
 

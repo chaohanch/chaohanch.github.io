@@ -12,6 +12,15 @@
   margin-bottom: 4rem;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
 @media (max-width: $container-responsive-width) {
   .container {
     width: 90vw;
@@ -50,8 +59,13 @@
 
 .site-page .content-container a {
   color: $teal;
-  text-decoration: underline;
+  font-weight: 600;
+  text-decoration: none;
   text-underline-offset: 0.16em;
+}
+
+.site-page .content-container a:not(.cv-download):is(:hover, :focus-visible) {
+  text-decoration: underline;
 }
 
 .site-page .content-container a:focus-visible {

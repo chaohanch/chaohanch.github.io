@@ -9,15 +9,6 @@
   gap: clamp(1.5rem, 5vw, 4rem);
 }
 
-.about-title {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  clip-path: inset(50%);
-  white-space: nowrap;
-}
-
 .about-intro p {
   margin: 0;
 }

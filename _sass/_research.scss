@@ -8,6 +8,12 @@
   border-top: 1px solid $rule-color;
 }
 
+.research-page .content-container h2:first-child {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: 0;
+}
+
 .research-page article p {
   margin: 0 0 1rem;
 }

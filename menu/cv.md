@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Curriculum vitae
+hide_title: true
 body_class: site-page cv-page
 permalink: /cv
 cv_file: CV_2026-11_web.pdf
