@@ -5,6 +5,8 @@ body_class: site-page research-page
 permalink: /research
 ---
 
+I’m updating this page to include more recent projects.
+
 ## Current research questions
 
 - How do language-specific phonological patterns shape phonetic perception? [SNL 2025 poster on phonological patterns]({{ '/assets/files/flap_snl.pdf' | relative_url }})
