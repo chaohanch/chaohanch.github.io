@@ -32,7 +32,7 @@ Before coming to Toronto, I completed my PhD in linguistics and cognitive scienc
     <li>
       <time datetime="2026-10">Oct 2026</time>
       <span markdown="1">
-        A study on rotated speech and phonological underspecification that I collaborated on with [Jacob Burger](https://www.linkedin.com/in/jacob-burger-linguist/), [Arild Hestvik](https://udel.edu/~hestvik/), and [William J. Idsardi](https://wjidsardi.net/) was presented at [the 11th Mismatch Negativity Conference](https://mmn2026.uniba.it/) in Bari, Italy.
+        Joint work with [Jacob Burger](https://www.linkedin.com/in/jacob-burger-linguist/), [Arild Hestvik](https://udel.edu/~hestvik/), and [William J. Idsardi](https://wjidsardi.net/) on rotated speech and phonological underspecification was presented at [the 11th Mismatch Negativity Conference](https://mmn2026.uniba.it/) in Bari, Italy.
       </span>
     </li>
     <li>
