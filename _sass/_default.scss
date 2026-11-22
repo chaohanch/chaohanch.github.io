@@ -106,17 +106,19 @@ html {
   position: sticky;
   top: 0;
   z-index: 1;
+  margin-bottom: 2rem;
+  background: $warm-white;
+  box-shadow: 0 5px 8px -6px rgba($pine, 0.32);
+  font-family: $site-body-font-family;
+}
+
+.header-inner {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   gap: 0.5rem 1.5rem;
   padding: 1.25rem 0;
-  margin-bottom: 2rem;
-  border-bottom: 1px solid $rule-color;
-  background: $warm-white;
-  box-shadow: 0 5px 8px -6px rgba($pine, 0.32);
-  font-family: $site-body-font-family;
 }
 
 .header-title {
