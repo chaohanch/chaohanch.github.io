@@ -12,6 +12,15 @@
   margin-bottom: 4rem;
 }
 
+.tinted-section {
+  margin-top: 2rem;
+  padding-block: 1.5rem;
+  background: $pale-sage;
+  // Extend the tint across the viewport while keeping the text aligned.
+  box-shadow: 0 0 0 100vmax $pale-sage;
+  clip-path: inset(0 -100vmax);
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -83,7 +92,20 @@
   Header
 */
 
+html {
+  scroll-padding-top: 6rem;
+}
+
+@media (max-width: 42em) {
+  html {
+    scroll-padding-top: 10rem;
+  }
+}
+
 .header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -92,6 +114,8 @@
   padding: 1.25rem 0;
   margin-bottom: 2rem;
   border-bottom: 1px solid $rule-color;
+  background: $warm-white;
+  box-shadow: 0 5px 8px -6px rgba($pine, 0.32);
   font-family: $site-body-font-family;
 }
 

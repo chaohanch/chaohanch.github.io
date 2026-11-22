@@ -1,14 +1,10 @@
 :is(.research-page, .publication-page) .content-container h2 {
   font-size: 1.5rem;
   margin: 2rem 0 1rem;
-  padding-top: 1.25rem;
-  border-top: 1px solid $rule-color;
 }
 
 :is(.research-page, .publication-page) .content-container h2:first-child {
   margin-top: 0;
-  padding-top: 0;
-  border-top: 0;
 }
 
 .research-page article ul {

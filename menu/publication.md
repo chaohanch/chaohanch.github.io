@@ -13,6 +13,8 @@ permalink: /publication
 - Zhiyin Renee Dong, <span class="author">Chao Han</span>, & Xian Zhao. _When vision meets emotional difficulty: The role of L2 grit in linking the ideal L2 self to achievement among U.S. university learners of Spanish_.
 - Zhiyin Renee Dong, <span class="author">Chao Han</span>, Shaofeng Li, & Zhiying Qian. _How does enjoyment translate into motivated behavior? The mediating role of L2 grit among college-level learners of Chinese as a foreign language in North America_.
 
+<section class="tinted-section" aria-labelledby="journal-articles" markdown="1">
+
 ## Journal articles
 
 - <span class="author">Chao Han</span>, Arild Hestvik, & William J. Idsardi (2026). Within-category mismatch responses to parametrically varying speech sounds. _European Journal of Neuroscience, 63_(8), e70482. [<i class="ai ai-doi" aria-hidden="true"></i>](https://doi.org/10.1111/ejn.70482){: aria-label="View article via DOI" title="DOI"}
@@ -23,6 +25,8 @@ permalink: /publication
 - Yasuaki Shinohara, <span class="author">Chao Han</span>, & Arild Hestvik (2022). Discriminability and prototypicality of non-native vowels. _Studies in Second Language Acquisition, 44_(5), 1260–1278. [<i class="ai ai-doi" aria-hidden="true"></i>](https://doi.org/10.1017/S0272263121000978){: aria-label="View article via DOI" title="DOI"}
 - Ryan Rhodes, Enes Avcu, <span class="author">Chao Han</span>, & Arild Hestvik (2022). Auditory predictions are phonological when phonetic information is variable. _Language, Cognition and Neuroscience, 37_(9), 1099–1114. [<i class="ai ai-doi" aria-hidden="true"></i>](https://doi.org/10.1080/23273798.2022.2043395){: aria-label="View article via DOI" title="DOI"}
 - Ryan Rhodes, <span class="author">Chao Han</span>, & Arild Hestvik (2019). Phonological memory traces do not contain phonetic information. _Attention, Perception, & Psychophysics, 81_(4), 897–911. [<i class="ai ai-doi" aria-hidden="true"></i>](https://doi.org/10.3758/s13414-019-01728-1){: aria-label="View article via DOI" title="DOI"}
+
+</section>
 
 ## Proceedings
 

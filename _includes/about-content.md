@@ -26,7 +26,7 @@ Before coming to Toronto, I completed my PhD in linguistics and cognitive scienc
   </dl>
 </section>
 
-<section class="about-news" aria-labelledby="news">
+<section class="about-news tinted-section" aria-labelledby="news">
   <h2 id="news">News</h2>
   <ul class="news-list" role="list">
     <li>

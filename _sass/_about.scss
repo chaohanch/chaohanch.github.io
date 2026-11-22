@@ -51,11 +51,8 @@
   font-weight: 600;
 }
 
-.about-education,
-.about-news {
+.about-education {
   margin-top: 2rem;
-  padding-top: 1.25rem;
-  border-top: 1px solid $rule-color;
 }
 
 .about-page .about-news h2,
@@ -65,8 +62,8 @@
 
 .education-list {
   display: grid;
-  grid-template-columns: minmax(0, 35fr) minmax(0, 65fr);
-  gap: 1rem;
+  grid-template-columns: minmax(12.5rem, 3fr) minmax(0, 7fr);
+  gap: 1rem 0.625rem;
   margin: 1rem 0 0;
 }
 
