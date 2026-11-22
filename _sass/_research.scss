@@ -1,9 +1,5 @@
-:is(.research-page, .publication-page) .content-container {
-  max-width: 48rem;
-}
-
 :is(.research-page, .publication-page) .content-container h2 {
-  font-size: clamp(1.5rem, 3.5vw, 1.75rem);
+  font-size: 1.5rem;
   margin: 2rem 0 1rem;
   padding-top: 1.25rem;
   border-top: 1px solid $rule-color;
@@ -29,8 +25,17 @@
   font-size: 1rem;
 }
 
-.publication-page article p {
-  margin: 0 0 1rem;
+.publication-page article ul {
+  margin: 0;
+  padding-inline-start: 1.2em;
+}
+
+.publication-page article li + li {
+  margin-top: 1rem;
+}
+
+.publication-page article li::marker {
+  color: $muted-green;
 }
 
 .publication-page .author {

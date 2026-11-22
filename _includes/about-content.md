@@ -8,3 +8,38 @@ Before coming to Toronto, I completed my PhD in linguistics and cognitive scienc
 </div>
 {% include about-portrait.html %}
 </div>
+
+<section class="about-education" aria-labelledby="education">
+  <h2 id="education">Education</h2>
+  <dl class="education-list">
+    <div>
+      <dt>University of Delaware</dt>
+      <dd><span class="fa-solid fa-graduation-cap" aria-hidden="true"></span> Ph.D. in Linguistics (2023)</dd>
+      <dd><span class="fa-solid fa-graduation-cap" aria-hidden="true"></span> M.A. in Linguistics (2015)</dd>
+    </div>
+    <div>
+      <dt>Beijing Foreign Studies University</dt>
+      <dd><span class="fa-solid fa-graduation-cap" aria-hidden="true"></span> M.A. in Linguistics and Applied Linguistics (2014)</dd>
+      <dd><span class="fa-solid fa-graduation-cap" aria-hidden="true"></span> Bachelor of Economics in International Economics and Trade (2009)</dd>
+      <dd><span class="fa-solid fa-graduation-cap" aria-hidden="true"></span> B.A. in English (2009)</dd>
+    </div>
+  </dl>
+</section>
+
+<section class="about-news" aria-labelledby="news">
+  <h2 id="news">News</h2>
+  <ul class="news-list" role="list">
+    <li>
+      <time datetime="2026-10">Oct 2026</time>
+      <span>A study on rotated speech and phonological underspecification that I co-authored with Jacob Burger, Arild Hestvik, and William J. Idsardi was presented at the 11th Mismatch Negativity Conference in Bari, Italy.</span>
+    </li>
+    <li>
+      <time datetime="2026-06">Jun 2026</time>
+      <span>At LabPhon 20 in Montréal, I presented our EEG work on how Korean and English listeners encode English stop voicing contrasts.</span>
+    </li>
+    <li>
+      <time datetime="2026-04">Apr 2026</time>
+      <span>Our <a href="https://doi.org/10.1111/ejn.70482">paper on within-category mismatch responses to varying speech sounds</a> appeared in the <em>European Journal of Neuroscience</em>.</span>
+    </li>
+  </ul>
+</section>
