@@ -48,7 +48,7 @@
 }
 
 .about-education {
-  margin-top: 2rem;
+  margin-top: 1.618rem;
 }
 
 .about-page .about-news h2,
@@ -58,8 +58,7 @@
 
 .education-list {
   display: grid;
-  grid-template-columns: minmax(12.5rem, 3fr) minmax(0, 7fr);
-  gap: 1rem 0.625rem;
+  gap: 0.618rem;
   margin: 1rem 0 0;
 }
 
@@ -101,8 +100,7 @@
 }
 
 @media (max-width: 42em) {
-  .about-intro,
-  .education-list {
+  .about-intro {
     grid-template-columns: minmax(0, 1fr);
   }
 

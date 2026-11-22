@@ -1,13 +1,9 @@
 <div class="about-intro" markdown="1">
 <div markdown="1">
 
-Hello! I’m a postdoctoral researcher at the University of Toronto Scarborough. I work with [Dr. Philip J. Monahan](https://phijomo.github.io/) and [Dr. Yoonjung Kang](https://www.yoonjungkang.com/). I use behavioral experiments and EEG experiments to study how listeners use acoustic cues to recognize speech sounds, and how this process is shaped by language experience.
+Hello! I'm a postdoctoral fellow at the University of Toronto Scarborough, working with [Dr. Philip J. Monahan](https://phijomo.github.io/) and [Dr. Yoonjung Kang](https://www.yoonjungkang.com/). I use behavioral experiments and EEG to study how listeners use and adapt to acoustic cues when recognizing speech sounds, and how language experience shapes this process. My broader interests include bilingualism, individual differences in language learning, and how language research can inform teaching.
 
-I completed my PhD in linguistics at the University of Delaware under the supervision of [Dr. Arild Hestvik](https://udel.edu/~hestvik/). Before that, I received training in applied linguistics as a master student at Beijing Foreign Studies University.
-
-</div>
-{% include about-portrait.html %}
-</div>
+I received my PhD in Linguistics from the University of Delaware, advised by [Dr. Arild Hestvik](https://udel.edu/~hestvik/).
 
 <section class="about-education" aria-labelledby="education">
   <h2 id="education">Education</h2>
@@ -25,6 +21,10 @@ I completed my PhD in linguistics at the University of Delaware under the superv
     </div>
   </dl>
 </section>
+
+</div>
+{% include about-portrait.html %}
+</div>
 
 <section class="about-news tinted-section" aria-labelledby="news">
   <h2 id="news">News</h2>
