@@ -57,9 +57,11 @@
 }
 
 .education-list {
-  display: grid;
-  gap: 0.618rem;
   margin: 1rem 0 0;
+}
+
+.education-list > div + div {
+  margin-top: 0.618rem;
 }
 
 .education-list dt {
