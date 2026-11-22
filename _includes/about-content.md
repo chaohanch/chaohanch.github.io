@@ -13,15 +13,15 @@ Before coming to Toronto, I completed my PhD in linguistics and cognitive scienc
   <h2 id="education">Education</h2>
   <dl class="education-list">
     <div>
-      <dt>University of Delaware</dt>
+      <dt><a href="https://www.udel.edu/">University of Delaware</a></dt>
       <dd><span class="fa-solid fa-graduation-cap" aria-hidden="true"></span> Ph.D. in Linguistics (2023)</dd>
       <dd><span class="fa-solid fa-graduation-cap" aria-hidden="true"></span> M.A. in Linguistics (2015)</dd>
     </div>
     <div>
-      <dt>Beijing Foreign Studies University</dt>
+      <dt><a href="https://www.bfsu.edu.cn/">Beijing Foreign Studies University</a></dt>
       <dd><span class="fa-solid fa-graduation-cap" aria-hidden="true"></span> M.A. in Linguistics and Applied Linguistics (2014)</dd>
-      <dd><span class="fa-solid fa-graduation-cap" aria-hidden="true"></span> Bachelor of Economics in International Economics and Trade (2009)</dd>
       <dd><span class="fa-solid fa-graduation-cap" aria-hidden="true"></span> B.A. in English (2009)</dd>
+      <dd><span class="fa-solid fa-graduation-cap" aria-hidden="true"></span> Bachelor of Economics in International Economics and Trade (2009)</dd>
     </div>
   </dl>
 </section>
@@ -32,6 +32,10 @@ Before coming to Toronto, I completed my PhD in linguistics and cognitive scienc
     <li>
       <time datetime="2026-10">Oct 2026</time>
       <span>A study on rotated speech and phonological underspecification that I co-authored with Jacob Burger, Arild Hestvik, and William J. Idsardi was presented at the 11th Mismatch Negativity Conference in Bari, Italy.</span>
+    </li>
+    <li>
+      <time datetime="2026-10">Oct 2026</time>
+      <span>At the Second Language Research Forum in Montréal, Zhiyin Renee Dong and I presented our work on how L2 grit may help explain the link between enjoyment and motivated behavior among learners of Spanish.</span>
     </li>
     <li>
       <time datetime="2026-06">Jun 2026</time>
