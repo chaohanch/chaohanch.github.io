@@ -12,5 +12,6 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 
-  {% seo %}
+  <title>{{ site.title | escape }}{% if page.title and page.title != site.title %} | {{ page.title | escape }}{% endif %}</title>
+  {% seo title=false %}
 </head>
