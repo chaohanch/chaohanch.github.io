@@ -1,17 +1,17 @@
-:is(.research-page, .publication-page) .content-container h2 {
+:is(.research-page, .publication-page, .teaching-page) .content-container h2 {
   font-size: 1.5rem;
   margin: 2rem 0 1rem;
 }
 
-:is(.research-page, .publication-page) .content-container h2:first-child {
+:is(.research-page, .publication-page, .teaching-page) .content-container h2:first-child {
   margin-top: 0;
 }
 
-.research-page article ul {
+:is(.research-page, .teaching-page) article ul {
   padding-left: 1.2em;
 }
 
-.research-page article li + li {
+:is(.research-page, .teaching-page) article li + li {
   margin-top: 0.75rem;
 }
 

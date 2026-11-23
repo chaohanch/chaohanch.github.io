@@ -1,26 +1,21 @@
 <div class="about-intro" markdown="1">
 <div markdown="1">
 
-I'm a postdoctoral fellow at the [University of Toronto Scarborough](https://www.utsc.utoronto.ca/home/), working with [Dr. Philip J. Monahan](https://phijomo.github.io/) and [Dr. Yoonjung Kang](https://www.yoonjungkang.com/). I run behavioral and EEG experiments to study how the brain encodes acoustic cues to recognize speech sounds, and how language experience shapes this process. My broader interests include bilingualism, individual differences in language learning, and using language research to inform teaching.
+I'm a postdoctoral fellow at the [University of Toronto Scarborough](https://www.utsc.utoronto.ca/home/), working with [Dr. Philip J. Monahan](https://phijomo.github.io/) and [Dr. Yoonjung Kang](https://www.yoonjungkang.com/). I run behavioral and EEG experiments to study how the brain encodes acoustic cues to recognize speech sounds, and how language experience shapes this process. My broader interests include bilingualism, individual differences in language learning, and using language research to inform teaching. Before coming to Toronto, I completed my doctoral research under the supervision of [Dr. Arild Hestvik](https://udel.edu/~hestvik/).
 
-I received my PhD in Linguistics from the University of Delaware, advised by [Dr. Arild Hestvik](https://udel.edu/~hestvik/).
-
-<section class="about-education" aria-labelledby="education">
-  <h2 id="education">Education</h2>
-  <dl class="education-list">
-    <div>
-      <dt><a href="https://www.udel.edu/">University of Delaware</a></dt>
-      <dd><span class="fa-solid fa-graduation-cap" aria-hidden="true"></span> Ph.D. in Linguistics (2023)</dd>
-      <dd><span class="fa-solid fa-graduation-cap" aria-hidden="true"></span> M.A. in Linguistics (2015)</dd>
-    </div>
-    <div>
-      <dt><a href="https://www.bfsu.edu.cn/">Beijing Foreign Studies University</a></dt>
-      <dd><span class="fa-solid fa-graduation-cap" aria-hidden="true"></span> M.A. in Linguistics and Applied Linguistics (2014)</dd>
-      <dd><span class="fa-solid fa-graduation-cap" aria-hidden="true"></span> B.A. in English (2009)</dd>
-      <dd><span class="fa-solid fa-graduation-cap" aria-hidden="true"></span> Bachelor of Economics in International Economics and Trade (2009)</dd>
-    </div>
-  </dl>
-</section>
+<dl class="education-list">
+  <div>
+    <dt><a href="https://www.udel.edu/">University of Delaware</a></dt>
+    <dd><span class="fa-solid fa-graduation-cap" aria-hidden="true"></span> <span>PhD in Linguistics (2023)</span></dd>
+    <dd><span class="fa-solid fa-graduation-cap" aria-hidden="true"></span> <span>MA in Linguistics (2015)</span></dd>
+  </div>
+  <div>
+    <dt><a href="https://www.bfsu.edu.cn/">Beijing Foreign Studies University</a></dt>
+    <dd><span class="fa-solid fa-graduation-cap" aria-hidden="true"></span> <span>MA in Linguistics and Applied Linguistics (2014)</span></dd>
+    <dd><span class="fa-solid fa-graduation-cap" aria-hidden="true"></span> <span>BA in English (2009)</span></dd>
+    <dd><span class="fa-solid fa-graduation-cap" aria-hidden="true"></span> <span>Bachelor of Economics in International Economics and Trade (2009)</span></dd>
+  </div>
+</dl>
 
 </div>
 {% include about-portrait.html %}

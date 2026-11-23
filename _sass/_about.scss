@@ -47,12 +47,7 @@
   font-weight: 600;
 }
 
-.about-education {
-  margin-top: 1.618rem;
-}
-
-.about-page .about-news h2,
-.about-page .about-education h2 {
+.about-page .about-news h2 {
   font-size: 1.5rem;
 }
 
@@ -69,9 +64,10 @@
 }
 
 .education-list dd {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
   align-items: baseline;
-  gap: 0.5rem;
+  column-gap: 0.5rem;
   margin-inline-start: 0;
 }
 
