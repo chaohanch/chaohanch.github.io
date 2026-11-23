@@ -1,7 +1,7 @@
 <div class="about-intro" markdown="1">
 <div markdown="1">
 
-Hello! I'm a postdoctoral fellow at the University of Toronto Scarborough, working with [Dr. Philip J. Monahan](https://phijomo.github.io/) and [Dr. Yoonjung Kang](https://www.yoonjungkang.com/). I run behavioral and EEG experiments to study how the brain encodes acoustic cues to recognize speech sounds, and how language experience shapes this process. My broader interests include bilingualism, individual differences in language learning, and using language research to inform teaching.
+Hello! I'm a postdoctoral fellow at the [University of Toronto Scarborough](https://www.utsc.utoronto.ca/home/), working with [Dr. Philip J. Monahan](https://phijomo.github.io/) and [Dr. Yoonjung Kang](https://www.yoonjungkang.com/). I run behavioral and EEG experiments to study how the brain encodes acoustic cues to recognize speech sounds, and how language experience shapes this process. My broader interests include bilingualism, individual differences in language learning, and using language research to inform teaching.
 
 I received my PhD in Linguistics from the University of Delaware, advised by [Dr. Arild Hestvik](https://udel.edu/~hestvik/).
 
