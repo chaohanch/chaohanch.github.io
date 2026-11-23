@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Publications
+title: Publication
 body_class: site-page publication-page
 permalink: /publication
 ---
