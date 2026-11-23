@@ -9,3 +9,9 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
+
+exclude:
+  - assets/img/cat_avatar_v2.png
+  - assets/files/Poster_MMN2022.pdf
+  - assets/files/Poster_SNL2022.pdf
+  - assets/files/Poster_SNL2022_sandbox.pdf
